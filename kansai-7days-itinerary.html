@@ -1,0 +1,1120 @@
+<title>天下茶屋出發的關西七日</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@500;700;900&family=Noto+Sans+TC:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<style>
+  :root{
+    --bg:#EDEFEC;
+    --paper:#FBFCFA;
+    --paper-2:#F3F5F1;
+    --ink:#131C18;
+    --ink-2:#4C5A54;
+    --ink-3:#77857E;
+    --rule:#D2D8D2;
+    --rule-soft:#E2E7E1;
+    --accent:#A8321F;
+    --accent-soft:#F3E2DD;
+    --sea:#1B4A57;
+    --sea-soft:#DFEAEC;
+    --gold:#8A6512;
+    --gold-soft:#F2E9D2;
+    --shadow:0 1px 2px rgba(19,28,24,.06), 0 8px 24px -16px rgba(19,28,24,.22);
+
+    --l-sakaisuji:#814721;
+    --l-midosuji:#E5171F;
+    --l-chuo:#019A66;
+    --l-sennichi:#D8478C;
+    --l-tanimachi:#5B2E86;
+    --l-yotsubashi:#0078BA;
+    --l-nankai:#E07B12;
+    --l-kintetsu:#1B2E6B;
+    --l-hankyu:#7C0F1E;
+    --l-hanshin:#1B3E8C;
+    --l-keihan:#12764F;
+    --l-jr:#0072BC;
+    --l-port:#0E93B8;
+    --l-bus:#556A76;
+    --l-walk:#8B8F86;
+    --l-air:#3C4B8A;
+
+    --f-display:"Noto Serif TC",'Songti TC','Times New Roman',serif;
+    --f-body:"Noto Sans TC",-apple-system,'Segoe UI','Microsoft JhengHei',sans-serif;
+    --f-mono:"IBM Plex Mono",ui-monospace,'SFMono-Regular',Menlo,monospace;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --bg:#101512;
+      --paper:#171E1A;
+      --paper-2:#1D2621;
+      --ink:#E7EDE8;
+      --ink-2:#A5B2AB;
+      --ink-3:#7D8B84;
+      --rule:#2B352F;
+      --rule-soft:#232C27;
+      --accent:#E3806B;
+      --accent-soft:#331C16;
+      --sea:#7CBECB;
+      --sea-soft:#152A30;
+      --gold:#C9A44F;
+      --gold-soft:#2B2415;
+      --shadow:0 1px 2px rgba(0,0,0,.4), 0 10px 28px -18px rgba(0,0,0,.7);
+      --l-sakaisuji:#C08A5E;
+      --l-midosuji:#F2635F;
+      --l-chuo:#3CBE93;
+      --l-sennichi:#EA7CAE;
+      --l-tanimachi:#9C74C9;
+      --l-yotsubashi:#54A9DE;
+      --l-nankai:#EFA34E;
+      --l-kintetsu:#7A8AC6;
+      --l-hankyu:#C97A85;
+      --l-hanshin:#7C93D4;
+      --l-keihan:#4FB388;
+      --l-jr:#57A9DE;
+      --l-port:#5CBBD6;
+      --l-bus:#93A6B1;
+      --l-walk:#9AA096;
+      --l-air:#8B98D4;
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#101512;
+    --paper:#171E1A;
+    --paper-2:#1D2621;
+    --ink:#E7EDE8;
+    --ink-2:#A5B2AB;
+    --ink-3:#7D8B84;
+    --rule:#2B352F;
+    --rule-soft:#232C27;
+    --accent:#E3806B;
+    --accent-soft:#331C16;
+    --sea:#7CBECB;
+    --sea-soft:#152A30;
+    --gold:#C9A44F;
+    --gold-soft:#2B2415;
+    --shadow:0 1px 2px rgba(0,0,0,.4), 0 10px 28px -18px rgba(0,0,0,.7);
+    --l-sakaisuji:#C08A5E;
+    --l-midosuji:#F2635F;
+    --l-chuo:#3CBE93;
+    --l-sennichi:#EA7CAE;
+    --l-tanimachi:#9C74C9;
+    --l-yotsubashi:#54A9DE;
+    --l-nankai:#EFA34E;
+    --l-kintetsu:#7A8AC6;
+    --l-hankyu:#C97A85;
+    --l-hanshin:#7C93D4;
+    --l-keihan:#4FB388;
+    --l-jr:#57A9DE;
+    --l-port:#5CBBD6;
+    --l-bus:#93A6B1;
+    --l-walk:#9AA096;
+    --l-air:#8B98D4;
+  }
+
+  *{box-sizing:border-box}
+  body{
+    background:var(--bg);
+    color:var(--ink);
+    font-family:var(--f-body);
+    font-size:15px;
+    line-height:1.68;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:860px;margin:0 auto;padding-inline:18px;padding-block:0 72px}
+  a{color:var(--accent);text-decoration:none;border-bottom:1px solid color-mix(in srgb,var(--accent) 35%,transparent)}
+  a:hover{border-bottom-color:var(--accent)}
+  a:focus-visible,button:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:2px}
+  h1,h2,h3,h4{font-family:var(--f-display);text-wrap:balance;margin:0}
+  p{margin:0}
+  ul,ol{margin:0;padding-left:1.15em}
+  li{margin:.18em 0}
+  strong{font-weight:700}
+  .mono{font-family:var(--f-mono);font-variant-numeric:tabular-nums}
+
+  /* ---------- masthead ---------- */
+  .mast{padding-block:52px 30px;border-bottom:2px solid var(--ink)}
+  .eyebrow{
+    font-family:var(--f-mono);font-size:11.5px;letter-spacing:.18em;text-transform:uppercase;
+    color:var(--ink-3);display:flex;gap:.9em;flex-wrap:wrap;align-items:center
+  }
+  .eyebrow b{color:var(--accent);font-weight:600}
+  h1{font-size:clamp(31px,7.4vw,50px);font-weight:900;line-height:1.14;margin-top:14px;letter-spacing:-.01em}
+  .dek{margin-top:14px;font-size:16px;color:var(--ink-2);max-width:62ch}
+
+  .facts{
+    margin-top:26px;display:grid;gap:1px;background:var(--rule);
+    grid-template-columns:repeat(auto-fit,minmax(158px,1fr));border:1px solid var(--rule)
+  }
+  .fact{background:var(--paper);padding:12px 14px}
+  .fact dt{font-family:var(--f-mono);font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-3)}
+  .fact dd{margin:3px 0 0;font-size:14px;font-weight:500}
+  .fact dd .sub{display:block;font-size:12.5px;color:var(--ink-2);font-weight:400}
+
+  /* ---------- nav ---------- */
+  nav.jump{
+    position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 92%,transparent);
+    backdrop-filter:blur(8px);border-bottom:1px solid var(--rule);
+    margin-inline:-18px;padding:9px 18px;overflow-x:auto
+  }
+  .jump-inner{display:flex;gap:7px;min-width:max-content}
+  .jump a{
+    font-family:var(--f-mono);font-size:11.5px;letter-spacing:.04em;border:1px solid var(--rule);
+    padding:5px 9px;color:var(--ink-2);background:var(--paper);white-space:nowrap
+  }
+  .jump a:hover{border-color:var(--accent);color:var(--accent)}
+
+  /* ---------- sections ---------- */
+  section{margin-top:46px;scroll-margin-top:64px}
+  .sec-head{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap;border-bottom:1px solid var(--rule);padding-bottom:8px}
+  .sec-head h2{font-size:clamp(20px,4vw,25px);font-weight:700}
+  .sec-head .hint{font-size:12.5px;color:var(--ink-3);font-family:var(--f-mono)}
+
+  /* ---------- overview table ---------- */
+  .scroll{overflow-x:auto;margin-top:16px;border:1px solid var(--rule);background:var(--paper)}
+  table{border-collapse:collapse;width:100%;min-width:620px;font-size:13.5px}
+  th,td{text-align:left;padding:9px 12px;border-bottom:1px solid var(--rule-soft);vertical-align:top}
+  thead th{
+    font-family:var(--f-mono);font-size:10.5px;letter-spacing:.13em;text-transform:uppercase;
+    color:var(--ink-3);background:var(--paper-2);border-bottom:1px solid var(--rule);white-space:nowrap
+  }
+  tbody tr:last-child td{border-bottom:0}
+  td.d{font-family:var(--f-mono);white-space:nowrap;font-variant-numeric:tabular-nums;color:var(--ink-2)}
+  td.t{font-weight:500}
+
+  /* ---------- day ---------- */
+  .day{margin-top:40px;scroll-margin-top:64px}
+  .day-head{border-top:2px solid var(--ink);padding-top:14px}
+  .day-no{
+    font-family:var(--f-mono);font-size:11.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-3);
+    display:flex;gap:.75em;align-items:center;flex-wrap:wrap
+  }
+  .wd{
+    background:var(--ink);color:var(--bg);padding:1px 7px;font-weight:600;letter-spacing:.1em;font-size:10.5px
+  }
+  .wd.sun{background:var(--accent);color:#fff}
+  .day-head h3{font-size:clamp(21px,4.6vw,28px);font-weight:700;margin-top:8px;letter-spacing:-.005em}
+  .day-sum{margin-top:8px;color:var(--ink-2);font-size:14px;max-width:64ch}
+  .day-stats{
+    margin-top:12px;display:flex;gap:8px;flex-wrap:wrap;
+    font-family:var(--f-mono);font-size:11px;letter-spacing:.04em
+  }
+  .day-stats span{border:1px solid var(--rule);padding:3px 8px;color:var(--ink-2);background:var(--paper)}
+
+  /* ---------- timetable ---------- */
+  .tt{margin-top:20px;display:grid;grid-template-columns:74px 1fr;gap:0}
+  .tt > .time{
+    font-family:var(--f-mono);font-size:12.5px;font-variant-numeric:tabular-nums;
+    color:var(--ink-2);padding:11px 10px 11px 0;border-top:1px solid var(--rule-soft);white-space:nowrap;font-weight:500
+  }
+  .tt > .ev{padding:11px 0;border-top:1px solid var(--rule-soft)}
+  .tt > .time:first-child,.tt > .time:first-child + .ev{border-top:1px solid var(--rule)}
+  .ev .h{font-weight:700;font-size:14.5px;line-height:1.45}
+  .ev .h .yen{font-family:var(--f-mono);font-weight:500;font-size:12.5px;color:var(--ink-2);margin-left:.5em;font-variant-numeric:tabular-nums}
+  .ev .d{font-size:13.5px;color:var(--ink-2);margin-top:3px}
+  .ev .d em{font-style:normal;color:var(--ink);font-weight:500}
+  .tt .move .h{font-weight:500;font-size:13.5px;color:var(--ink-2)}
+  .tt .move{background:linear-gradient(to right,color-mix(in srgb,var(--paper-2) 80%,transparent),transparent 70%)}
+
+  /* line chips */
+  .lines{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:4px}
+  .ln{
+    display:inline-flex;align-items:center;gap:5px;font-family:var(--f-mono);font-size:11px;
+    letter-spacing:.02em;border:1px solid var(--rule);padding:1px 7px 1px 5px;color:var(--ink-2);
+    background:var(--paper);white-space:nowrap
+  }
+  .ln::before{content:"";width:8px;height:8px;background:var(--c,var(--l-walk));flex:none;border-radius:1px}
+  .ln.sk{--c:var(--l-sakaisuji)} .ln.md{--c:var(--l-midosuji)} .ln.ch{--c:var(--l-chuo)}
+  .ln.sn{--c:var(--l-sennichi)} .ln.tn{--c:var(--l-tanimachi)} .ln.yt{--c:var(--l-yotsubashi)}
+  .ln.nk{--c:var(--l-nankai)} .ln.kt{--c:var(--l-kintetsu)} .ln.hk{--c:var(--l-hankyu)}
+  .ln.hs{--c:var(--l-hanshin)} .ln.kh{--c:var(--l-keihan)} .ln.jr{--c:var(--l-jr)}
+  .ln.pt{--c:var(--l-port)} .ln.bs{--c:var(--l-bus)} .ln.wk{--c:var(--l-walk)} .ln.ar{--c:var(--l-air)}
+
+  /* badges */
+  .tag{
+    display:inline-block;font-family:var(--f-mono);font-size:10px;letter-spacing:.1em;
+    padding:1px 6px;vertical-align:2px;margin-right:6px;font-weight:600
+  }
+  .tag.must{background:var(--accent);color:#fff}
+  .tag.book{background:var(--gold-soft);color:var(--gold);border:1px solid color-mix(in srgb,var(--gold) 40%,transparent)}
+  .tag.cash{background:var(--paper-2);color:var(--ink-2);border:1px solid var(--rule)}
+
+  /* callout */
+  .note{
+    margin-top:14px;border-left:3px solid var(--sea);background:var(--sea-soft);
+    padding:11px 14px;font-size:13.5px;color:var(--ink)
+  }
+  .note.warn{border-left-color:var(--accent);background:var(--accent-soft)}
+  .note b{font-weight:700}
+  .note + .note{margin-top:8px}
+
+  /* option panels */
+  .opts{margin-top:18px;display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(230px,1fr))}
+  .opt{border:1px solid var(--rule);background:var(--paper);padding:15px 15px 17px;display:flex;flex-direction:column;gap:9px}
+  .opt.pick{border-color:var(--accent);box-shadow:var(--shadow)}
+  .opt .k{font-family:var(--f-mono);font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-3)}
+  .opt.pick .k{color:var(--accent)}
+  .opt h4{font-size:17px;font-weight:700}
+  .opt .why{font-size:13px;color:var(--ink-2)}
+  .opt dl{margin:0;display:grid;grid-template-columns:auto 1fr;gap:2px 10px;font-size:12.5px}
+  .opt dt{font-family:var(--f-mono);font-size:10.5px;letter-spacing:.08em;color:var(--ink-3);text-transform:uppercase;padding-top:2px}
+  .opt dd{margin:0;color:var(--ink)}
+
+  /* checklist */
+  .cl{margin-top:16px;border:1px solid var(--rule);background:var(--paper)}
+  .cl-group{border-bottom:1px solid var(--rule)}
+  .cl-group:last-child{border-bottom:0}
+  .cl-head{
+    display:flex;gap:10px;align-items:center;padding:10px 14px;background:var(--paper-2);
+    border-bottom:1px solid var(--rule-soft)
+  }
+  .cl-head .when{font-family:var(--f-mono);font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);font-weight:600}
+  .cl-head .sub{font-size:12.5px;color:var(--ink-3)}
+  .cl ol{list-style:none;padding:0;margin:0}
+  .cl li{display:grid;grid-template-columns:20px 1fr;gap:10px;padding:10px 14px;border-bottom:1px solid var(--rule-soft);margin:0;font-size:13.5px}
+  .cl li:last-child{border-bottom:0}
+  .cl li::before{content:"";width:14px;height:14px;border:1.5px solid var(--ink-3);margin-top:4px}
+  .cl li .w{font-weight:600}
+  .cl li .m{color:var(--ink-2);font-size:12.5px;display:block;margin-top:1px}
+
+  /* food list */
+  .foods{margin-top:16px;display:grid;gap:1px;background:var(--rule);border:1px solid var(--rule)}
+  .food{background:var(--paper);padding:13px 15px;display:grid;grid-template-columns:1fr auto;gap:4px 14px;align-items:start}
+  .food .n{font-weight:700;font-size:14.5px;grid-column:1}
+  .food .w{grid-column:1;font-size:13px;color:var(--ink-2)}
+  .food .when{grid-column:2;grid-row:1 / span 2;font-family:var(--f-mono);font-size:11px;color:var(--ink-3);text-align:right;white-space:nowrap;letter-spacing:.04em}
+
+  .legend{margin-top:16px;display:flex;flex-wrap:wrap;gap:6px}
+  footer{margin-top:56px;border-top:1px solid var(--rule);padding-top:18px;font-size:12.5px;color:var(--ink-3)}
+  @media (max-width:520px){
+    .tt{grid-template-columns:60px 1fr}
+    .tt > .time{font-size:11.5px}
+    .food{grid-template-columns:1fr}
+    .food .when{grid-column:1;grid-row:auto;text-align:left}
+  }
+  @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+
+<div class="wrap">
+
+<header class="mast">
+  <div class="eyebrow"><span>2026 · 10/24 – 10/30</span><span>·</span><b>6 人</b><span>·</span><span>住宿基地：天下茶屋</span></div>
+  <h1>天下茶屋出發的關西七日</h1>
+  <p class="dek">神戶進、神戶出，中間六個晚上都睡天下茶屋。行程按「回家的方向」排——南半場（難波・心齋橋・新世界）走南海與堺筋線，北半場（箕面・京都）走御堂筋線與阪急直通，最後一天順路把神戶玩完再上飛機。</p>
+
+  <dl class="facts">
+    <div class="fact"><dt>去程</dt><dd>BR176 · TPE → UKB<span class="sub mono">14:22 → 18:00 · 10/24 (六)</span></dd></div>
+    <div class="fact"><dt>回程</dt><dd>BR175 · UKB → TPE<span class="sub mono">19:00 起飛 · 10/30 (五)</span></dd></div>
+    <div class="fact"><dt>基地</dt><dd>天下茶屋<span class="sub">南海本線 · 堺筋線 K20</span></dd></div>
+    <div class="fact"><dt>必吃</dt><dd>4 家已排入<span class="sub">あぶりや · カヌレ堂 · 藤もと · さしす</span></dd></div>
+  </dl>
+</header>
+
+<nav class="jump" aria-label="跳至各段">
+  <div class="jump-inner">
+    <a href="#overview">全程一覽</a>
+    <a href="#booking">訂位清單</a>
+    <a href="#d1">10/24 抵達</a>
+    <a href="#d2">10/25 箕面</a>
+    <a href="#d3">10/26 京都</a>
+    <a href="#d4">10/27 難波</a>
+    <a href="#d5">10/28 一日遊</a>
+    <a href="#d6">10/29 大阪城</a>
+    <a href="#d7">10/30 神戶</a>
+    <a href="#options">備案比較</a>
+    <a href="#plan-b">B 宇治伏見</a>
+    <a href="#plan-c">C 嵐山仁和寺</a>
+    <a href="#plan-d">D 貴船三千院</a>
+    <a href="#foods">美食清單</a>
+    <a href="#notes">交通與待確認</a>
+  </div>
+</nav>
+
+<!-- ============ OVERVIEW ============ -->
+<section id="overview">
+  <div class="sec-head"><h2>全程一覽</h2><span class="hint">彈性日＝10/28</span></div>
+  <div class="scroll">
+    <table>
+      <thead><tr><th>日期</th><th>主題</th><th>白天</th><th>晚餐</th><th>步行量</th></tr></thead>
+      <tbody>
+        <tr><td class="d">10/24 六</td><td class="t">抵達</td><td>神戶落地 → 直接回天下茶屋</td><td>春駒（天下茶屋駅 100m）</td><td class="d">3 千步</td></tr>
+        <tr><td class="d">10/25 日</td><td class="t">勝尾寺＋箕面大滝</td><td>達摩山 → <strong>計程車翻山到大滝</strong> → 瀧道 2.7km 純下坡</td><td><strong>あぶりや 千日前</strong></td><td class="d">11 千步</td></tr>
+        <tr><td class="d">10/26 一</td><td class="t">京都東山和服</td><td>和服 → <strong>先上清水寺</strong> → 一路走下坡 → <strong>錦市場（下午）</strong></td><td>河原町／先斗町</td><td class="d">15 千步</td></tr>
+        <tr><td class="d">10/27 二</td><td class="t">難波・心齋橋・黑門</td><td>市場、購物、<strong>カヌレ堂</strong>、<strong>さしす</strong></td><td><strong>すき焼き 藤もと</strong></td><td class="d">13 千步</td></tr>
+        <tr><td class="d">10/28 三</td><td class="t">彈性一日遊</td><td>四個方案任選：奈良／宇治＋伏見稻荷／嵐山＋仁和寺／貴船＋三千院</td><td>天下茶屋周邊</td><td class="d">12 千步</td></tr>
+        <tr><td class="d">10/29 四</td><td class="t">大阪城・梅田・阿倍野</td><td>天守閣 → 中之島 → 梅田 → 哈魯咖斯夜景</td><td>新世界串カツ（だるま）</td><td class="d">13 千步</td></tr>
+        <tr><td class="d">10/30 五</td><td class="t">神戶半日＋回程</td><td>行李寄三宮 → 北野・南京町・港區</td><td>—（機上）</td><td class="d">8 千步</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="note">
+    <b>2026/9/11 這版改了三件事：</b>① <strong>10/25</strong> 不再繞回箕面萱野轉車，改成<em>從勝尾寺直接叫計程車翻山到箕面大滝</em>，再沿瀧道純下坡走回阪急箕面駅。② <strong>京都那天</strong>先搭車上清水寺、一路走下坡，<em>錦市場移到下午</em>（16:50 之後）。③ 日期輪調：京都 → 10/26、難波不動 → 10/27、彈性日 → 10/28、大阪城梅田 → 10/29。<br>
+    <b>日期改動後的定休檢查：</b>京都改到<em>週一</em> → <strong>有喜屋 清水吉晴庵 週一休，午餐改成清修庵 清水店（無休、可訂 6 人）</strong>；かさぎ屋（週二休）與錦市場老店（多為週三休）都沒問題。彈性日改到<em>週三</em> → <strong>嵐山方案的トロッコ週三運休風險、貴船大原方案的来隣週三休</strong>，奈良與宇治伏見不受影響；同時 志津香 大宮店（週一二休）反而變成可訂的選項。大阪城那天改到<em>週四</em> → <strong>八重勝週四休</strong>，已訂的だるま 動物園前店年中無休不受影響。黑門市場仍在週二、カヌレ堂仍避開週三。
+  </div>
+</section>
+
+<!-- ============ BOOKING ============ -->
+<section id="booking">
+  <div class="sec-head"><h2>訂位清單</h2><span class="hint">6 人＝很多店的門檻</span></div>
+
+  <div class="cl">
+    <div class="cl-group">
+      <div class="cl-head"><span class="when">現在就訂</span><span class="sub">9 月內</span></div>
+      <ol>
+        <li><span><span class="w">レンタル着物岡本 八坂神社店 — <strong>10/26（一）09:00</strong> ×6</span><span class="m">日期與時間都改了（原 10/29 09:30）。6 人著付け要 40–60 分，一定要搶<em>開店第一批</em>，整天的下坡動線才接得上。線上表單單筆人數上限沒公告，建議電話 075-532-0510 直接談團體。加購髮型 ¥500。</span></span></li>
+        <li><span><span class="w">池田タクシー — 10/25（日）11:40 勝尾寺 → 箕面大滝</span><span class="m">配車 <strong>072-761-8464</strong>，可<em>免加價指定時間預約（約一週前）</em>。優先要 <strong>ジャンボタクシー（9 人座）1 台</strong>，6 人同車；沒有就叫 2 台普通車。勝尾寺沒有排班車，山門旁只有免費直通電話（叫車到接人 15–20 分），週日午間現叫會等。</span></span></li>
+        <li><span><span class="w">国産牛焼肉 あぶりや 千日前店 — 10/25 19:00 個室 6 名</span><span class="m">有 6 人個室。訂的時候順便問清楚「食べ放題的限時幾分鐘、最後加點時間」——這點所有網站都沒寫。電話 06-6647-1757。</span></span></li>
+        <li><span><span class="w">すき焼き 藤もと — 10/27 18:30 ×6</span><span class="m">TableCheck 線上最多 10 人。無包廂、只能併桌，尖峰時段會限時 1 小時 15 分。同時確認定休日（四個來源都沒列）。</span></span></li>
+        <li><span><span class="w">春駒（天下茶屋）— 10/24 21:00 6 人座敷</span><span class="m">二樓有 5 間 6 人和室，第一晚 6 個人＋行李最舒服的選擇。只收電話預約：06-6661-3669。</span></span></li>
+        <li><span><span class="w">モーリヤ 三宮店 — 10/30 12:30 ×6</span><span class="m">官網線上訂。要指定「三宮店」而不是本店（本店午間 ¥13,000 起偏貴），訂位時確認三宮店午餐價位與 6 人座位。</span></span></li>
+        <li><span><span class="w">彈性日的票（看你選哪個方案）</span><span class="m"><b>A 奈良</b> → 正倉院展日時指定券（<strong>10/28</strong> 16:00 レイト割 ¥1,500）＋ 粟 ならまち店個室（1 週前）。<b>B 宇治伏見</b> → 幾乎不用訂，只需電話問福寿園宇治茶亭能否收 6 人。<b>C 嵐山</b> → <strong>先確認 10/28（週三）有沒有運行</strong>，再等 <strong>9/28 開賣日搶票</strong> ＋ 篩月（≥3 天前，確認信人工回覆要等幾天）。<b>D 貴船三千院</b> → <strong>来隣週三休，10/28 要改訂 芹生（075-744-2301）</strong>；三千院秘仏開扉日期打 075-744-2531 確認（兩個來源記 10/24 與 10/28 起，10/28 那天兩種說法都成立）。<b>天橋立</b> → KKday 先確認 10 月下旬有位。</span></span></li>
+      </ol>
+    </div>
+    <div class="cl-group">
+      <div class="cl-head"><span class="when">出發前一週</span><span class="sub">10 月中</span></div>
+      <ol>
+        <li><span><span class="w">清修庵 清水店 — 10/26（一）11:55 ×6</span><span class="m"><strong>取代原本的 有喜屋 清水吉晴庵（週一定休）。</strong>清水坂途中、2F、80 席、年中無休，10:30–16:30（L.O. 15:00），午餐 ¥1,000–1,500，手打そば＋自家製豆腐。可線上（HotPepper）或電話訂 6 人。</span></span></li>
+        <li><span><span class="w">元祖串かつ だるま 動物園前店 — <strong>10/29（四）</strong>19:30 ×6</span><span class="m">全大阪唯一能訂位的だるま，有座敷。ebica 線上。限時 90 分。</span></span></li>
+        <li><span><span class="w">たびサポ 神戸三宮 荷物預かり所 — 10/30 上午 6 件</span><span class="m">原則上不用預約，但官網寫「団體請先聯絡」。L 尺寸 ¥800／件，6 件約 ¥4,800。</span></span></li>
+        <li><span><span class="w">打電話確認長榮在神戶機場的櫃檯開放時間</span><span class="m">UKB 國際航廈 2025/4 才啟用，官方沒公告櫃檯時間。長榮規定有託運行李者須在 <strong>18:00</strong>（起飛前 60 分）前完成。</span></span></li>
+        <li><span><span class="w">（選配）箕面川床 梅屋敷 — 10/25 午餐</span><span class="m">溪床上吃飯，位置正好在瀧道中段。看到的資料寫秋季到 10/25，但無法確認是 2025 還是 2026 年度，務必電話向音羽山荘確認並訂 6 人。</span></span></li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<!-- ============ D1 ============ -->
+<article class="day" id="d1">
+  <div class="day-head">
+    <div class="day-no"><span>Day 1</span><span class="wd">10 / 24 SAT</span><span>抵達日</span></div>
+    <h3>落地就回家，第一晚不折騰</h3>
+    <p class="day-sum">18:00 落地、20:45 進房。神戶機場國際航廈（T2）很小，出關快，但要搭免費接駁車回 T1 才有電車。全程 3 段車，行李不用上下太多樓梯。</p>
+    <div class="day-stats"><span>移動 ¥940／人</span><span>約 1 小時 45 分</span><span>轉乘 3 次</span></div>
+  </div>
+
+  <div class="tt">
+    <div class="time">14:22</div>
+    <div class="ev"><div class="lines"><span class="ln ar">BR176</span></div><div class="h">桃園起飛</div><div class="d">建議 11:30 前到機場。</div></div>
+
+    <div class="time">18:00</div>
+    <div class="ev"><div class="h">神戶機場 T2 落地</div><div class="d">國際線專用航廈，只有 3 個登機門、約 4 間店。入境＋提行李抓 45 分。</div></div>
+
+    <div class="time">18:50</div>
+    <div class="ev move"><div class="lines"><span class="ln bs">免費接駁</span></div><div class="h">T2 → T1（6 分）</div><div class="d">也可走 300m 過去，但有頂棚仍屬室外，6 個人拉行李搭車比較快。</div></div>
+
+    <div class="time">19:05</div>
+    <div class="ev move"><div class="lines"><span class="ln pt">ポートライナー</span></div><div class="h">神戸空港 → 三宮 <span class="yen">18 分 ¥340</span></div><div class="d">6–10 分一班，無人駕駛，坐最前面看夜景。</div></div>
+
+    <div class="time">19:30</div>
+    <div class="ev move"><div class="lines"><span class="ln wk">步行 5–8 分</span></div><div class="h">三宮 → 阪神 神戸三宮</div><div class="d">有升降設備但要繞，跟緊隊伍。</div></div>
+
+    <div class="time">19:40</div>
+    <div class="ev move"><div class="lines"><span class="ln hs">阪神本線／なんば線 快速急行</span></div><div class="h">神戸三宮 → 大阪難波 <span class="yen">約 40 分 ¥420</span></div><div class="d">直通不換車，約 30 分一班。<em>備案：</em>JR 三ノ宮 → 大阪（新快速 21 分）→ 環狀線新今宮 → 南海，班次更密、車廂行李空間大，¥1,130。</div></div>
+
+    <div class="time">20:25</div>
+    <div class="ev move"><div class="lines"><span class="ln wk">步行</span><span class="ln nk">南海本線</span></div><div class="h">大阪難波 → 南海なんば → 天下茶屋 <span class="yen">¥180</span></div><div class="d">南海急行／區急 1 站，5 分鐘。</div></div>
+
+    <div class="time">20:45</div>
+    <div class="ev"><div class="h">進房、放行李</div></div>
+
+    <div class="time">21:00</div>
+    <div class="ev"><div class="h"><span class="tag book">已訂</span>春駒 · 居酒屋海鮮</div><div class="d">天下茶屋駅 100m，16:00–24:00（L.O. 23:30）。二樓 6 人座敷，第一晚 6 個人不用擠吧台。可刷卡／PayPay。<br><em>備案：</em>焼とんya たゆたゆ（89m，週六 17:00–24:00，可線上訂，全席吸菸）／超豚骨 濃度8（84m，開到凌晨 01:00，僅 12 席要拆組）。</div></div>
+  </div>
+
+  <div class="note">
+    <b>落地要做的三件事：</b>① ICOCA 或 Suica 儲值——之後幾乎每天都用，勝尾寺的巴士也只收現金或 IC。② 領現金：串カツ 八重勝、かさぎ屋、立ち食い寿司 越中屋 都只收現金。③ 確認手機網路，京都那天的班次要現查。
+  </div>
+</article>
+
+<!-- ============ D2 ============ -->
+<article class="day" id="d2">
+  <div class="day-head">
+    <div class="day-no"><span>Day 2</span><span class="wd sun">10 / 25 SUN</span><span>大阪北郊</span></div>
+    <h3>勝尾寺的達摩山，箕面的瀧道</h3>
+    <p class="day-sum">御堂筋線一線直達箕面萱野（不用出站換公司），巴士上山看滿山小達摩；中午<strong>從勝尾寺叫計程車翻過山直接到箕面大滝</strong>，再沿 2.7km 瀧道<strong>純下坡</strong>慢慢走回阪急箕面駅。晚上回難波吃這趟的第一必吃。</p>
+    <div class="day-stats"><span>約 11,000 步</span><span>交通 ¥2,350／人</span><span>門票 ¥500</span><span>全程不爬坡</span></div>
+  </div>
+
+  <div class="tt">
+    <div class="time">07:30</div>
+    <div class="ev"><div class="h">早餐、出發</div><div class="d">山上沒有正式餐廳，中午前只有茶屋輕食，早餐吃飽一點。</div></div>
+
+    <div class="time">08:00</div>
+    <div class="ev move"><div class="lines"><span class="ln sk">堺筋線</span><span class="ln md">御堂筋線 → 北大阪急行</span></div><div class="h">天下茶屋 → 動物園前 → 箕面萱野 <span class="yen">約 50 分 ¥580</span></div><div class="d">動物園前站內轉乘，1 站就到。<em>注意：</em>御堂筋線北行不是每班都到箕面萱野，有些在千里中央、新大阪折返——上車前看目的地板。</div></div>
+
+    <div class="time">08:50</div>
+    <div class="ev"><div class="h">箕面萱野駅 · 6 番のりば</div><div class="d">北側交通廣場，緊鄰車站北口與 みのおキューズモール。站牌寫「勝尾寺、北摂霊園、光風台方面」。</div></div>
+
+    <div class="time">09:00</div>
+    <div class="ev move"><div class="lines"><span class="ln bs">阪急バス 30（北摂霊園線）</span></div><div class="h">箕面萱野駅 → 勝尾寺 <span class="yen">22–30 分 ¥800</span></div><div class="d"><span class="tag cash">備現金</span>車上不收信用卡，只收現金或已儲值 IC。直行不停站。9:00 是往勝尾寺的第一班定時巴士，末班上山 <strong>15:00</strong>。</div></div>
+
+    <div class="time">09:30</div>
+    <div class="ev"><div class="h">勝尾寺 <span class="yen">¥500 · 週日 08:00–17:00（受付 16:30）</span></div><div class="d">山門的お清め橋會放人工雲霧 → 本堂求<em>勝ちダルマ</em>（寫願望、點一隻眼、簽誓約書，達成後再補另一眼）→ <em>六十四卦ダルマみくじ</em>（抽完的小達摩可以放在境內任何角落，滿山遍野的小達摩就是這裡的招牌畫面）→ 一願不動堂（只許一個願）→ 多宝塔。官網有線上票可免排隊。<br><em>改叫計程車之後不用趕回程巴士</em>，這裡可以完整走滿 1 小時 40 分。</div></div>
+
+    <div class="time">11:10</div>
+    <div class="ev"><div class="h">花の茶屋 小歇</div><div class="d">門前土產店內側，有空調、看得到庭園。旁邊 コムニカチオ 賣達摩造型的糖果、麵、文具。<em>上車前先上廁所</em>——大滝那邊只有駐車場旁一處。</div></div>
+
+    <div class="time">11:40</div>
+    <div class="ev move"><div class="lines"><span class="ln bs">計程車 · 箕面ドライブウェイ</span></div><div class="h"><span class="tag book">要先約</span>勝尾寺 → 箕面大滝 <span class="yen">約 15 分 · ¥2,500–3,000／台</span></div><div class="d">走府道 43 号（箕面ドライブウェイ）約 6km 一路下坡，不必繞回市區。<strong>勝尾寺山門旁設有池田タクシー的免費直通電話</strong>，叫車到接人一般 15–20 分；官方報價 勝尾寺 → 阪急箕面駅 ¥3,400，大滝在中途，抓 ¥2,500–3,000／台。<br><em>最穩的做法：</em>出發前一週打 <strong>072-761-8464</strong> 指定時間預約（免加價）。池田タクシー有 <em>2 台ジャンボタクシー（9 人座）</em>——訂到 1 台就 6 個人同車，訂不到就叫 2 台普通車。車資可刷卡／PayPay。</div></div>
+
+    <div class="time">12:00</div>
+    <div class="ev"><div class="h">箕面大滝</div><div class="d">落差 33m。計程車在大滝上的乘降場放人，走下來就是瀑布正面。停 25–30 分拍照，滝前有攤子賣現炸<em>もみじの天ぷら</em>。</div></div>
+
+    <div class="time">12:30</div>
+    <div class="ev"><div class="lines"><span class="ln wk">瀧道 2.7km · 全程下坡</span></div><div class="h">箕面大滝 → 阪急箕面駅（慢慢走 2 小時 30 分）</div><div class="d">全程鋪裝、沒有階梯，往下走完全不喘。沿溪由上而下依序是：唐人戻岩 → 昆虫館 → 山本珈琲館 → 梅屋敷（川床）→ <em>瀧安寺</em>（紅色瑞雲橋、日本最古辯財天）→ 一の橋 → 箕面駅。多處休憩所與廁所，隨時可以坐下來。</div></div>
+
+    <div class="time">13:00</div>
+    <div class="ev"><div class="h">午餐 · 瀧道中段</div><div class="d"><span class="tag book">要訂</span><strong>箕面川床 梅屋敷</strong>——溪床席就在瀧道上，¥2,200 起，週二休（10/25 是週日）。<em>2026 秋季檔期務必先電話向音羽山荘確認</em>，看到的資料寫秋季到 10/25 但無法確認年度。<br><em>不訂位的版本：</em>山本珈琲館坐下來喝咖啡，正餐留給晚上的燒肉；或走到駅前吃もみじの天ぷら（橋本亭、YUZUYA）。</div></div>
+
+    <div class="time">14:30</div>
+    <div class="ev"><div class="h">瀧安寺 · 一の橋</div><div class="d">日本最古的辯財天，紅色瑞雲橋是瀧道下段最好拍的一段。這裡離車站只剩 15 分鐘，時間有剩就多坐一下。</div></div>
+
+    <div class="time">15:10</div>
+    <div class="ev"><div class="h">阪急箕面駅</div><div class="d">ゆずソフト、箕面ビール、もみじ天ぷら當伴手禮。</div></div>
+
+    <div class="time">15:40</div>
+    <div class="ev move"><div class="lines"><span class="ln hk">阪急箕面線 → 宝塚線</span><span class="ln md">御堂筋線</span></div><div class="h">箕面 → 石橋阪大前 → 大阪梅田 → なんば <span class="yen">約 45 分 ¥520</span></div></div>
+
+    <div class="time">16:40</div>
+    <div class="ev"><div class="h">なんば 自由時間</div><div class="d">比原本的版本多出快一小時。選配：カヌレ堂 桜川本店（千日前線 1 站，10:00–19:00）先買可麗露，賣完就關門；或先去道頓堀晃一圈。</div></div>
+
+    <div class="time">19:00</div>
+    <div class="ev"><div class="h"><span class="tag must">必吃 1</span><span class="tag book">已訂</span>国産牛焼肉食べ放題 あぶりや 千日前店</div><div class="d">難波 3-4-16 ECS 第32ビル 4F，南海なんば 徒步 8 分。11:30–14:00／16:00–23:00，幾乎全年無休。国産牛食べ放題 ¥5,368；牛タン＋国産牛 ¥5,918；黒毛和牛＋牛タン ¥7,568；食べ飲み放題 ¥5,500。已訂 6 人個室。</div></div>
+
+    <div class="time">21:00</div>
+    <div class="ev move"><div class="lines"><span class="ln wk">步行</span><span class="ln nk">南海</span></div><div class="h">道頓堀夜景 → 天下茶屋</div><div class="d">吃完剛好散步去戎橋消化，再從南海なんば回家 5 分鐘。</div></div>
+  </div>
+
+  <div class="note warn">
+    <b>紅葉還沒到。</b>勝尾寺見頃約 11 月初–中旬、箕面公園 11 月中旬–12 月初。10/25 基本上還是綠的——好處是完全避開 11 月「排 20 分鐘上不了巴士」的地獄期，交通管制也還沒開始。想看紅葉的人先有心理準備。
+  </div>
+  <div class="note">
+    <b>為什麼改成計程車。</b>勝尾寺 → 箕面大滝 之間確實有東海自然歩道（約 5–6km、1.5–2 小時），但那是真正的山路：泥土、木階梯、反覆上下，中途沒有撤退的巴士。而原本的走法「巴士回箕面萱野 → 轉 36／21 到阪急箕面 → 再從駅前往上走 2.7km」要耗掉 1 小時半的交通<em>再加上坡</em>。<strong>計程車 15 分鐘直接送到瀑布，省下的時間全部變成在瀧道上慢慢走的時間，而且整條路線變成純下坡。</strong>代價只有每人多 ¥450（1 台ジャンボ）到 ¥900（2 台普通車）。<br><em>唯一風險：</em>勝尾寺沒有排班計程車，全靠叫車，週日午間可能要等——所以請務必前一週先電話指定時間預約，不要當天到了才打直通電話。
+  </div>
+</article>
+
+<!-- ============ D3 ============ -->
+<article class="day" id="d3">
+  <div class="day-head">
+    <div class="day-no"><span>Day 3</span><span class="wd">10 / 26 MON</span><span>京都</span></div>
+    <h3>東山：直接殺上清水寺，再一路走下坡回錦市場</h3>
+    <p class="day-sum">動線整天只往下走。早上到河原町先換和服，<strong>搭車直上清水寺</strong>（不從山下往上爬），然後順著清水坂 → 三年坂 → 二年坂 → 八坂の塔 → 八坂神社 → 花見小路 一路下降約 80 公尺回到四条通；和服店就在這條線的終點，還完衣服往西走 15 分就是<strong>錦市場</strong>——下午場、人潮已退，逛完接著新京極、寺町繼續買。</p>
+    <div class="day-stats"><span>約 15,000 步</span><span>全程下坡</span><span>交通 ¥1,400／人</span><span>和服 ¥3,278 起</span></div>
+  </div>
+
+  <div class="tt">
+    <div class="time">07:11</div>
+    <div class="ev move"><div class="lines"><span class="ln sk">堺筋線 → 阪急直通</span><span class="ln hk">阪急京都線 準特急</span></div><div class="h">天下茶屋 → 淡路 → 京都河原町 <span class="yen">約 64 分 ¥700</span></div><div class="d">搭 07:11「北千里行」的直通車 → 07:36 淡路（同月台）→ 07:40 準特急 → 約 08:13 京都河原町。<br><em>淡路換車只有約 4 分鐘</em>，保守一點就搭 07:06 那班。<em>早上不要等直達河原町的車</em>——上午只有 08:09 一班而且是各站停的普通車。當天請用 Yahoo!路線情報再確認一次班次。</div></div>
+
+    <div class="time">08:20</div>
+    <div class="ev"><div class="h">河原町 早餐</div><div class="d">錦市場移到下午了，早上不要在這裡耗太久——目標是 09:00 準時開始著付け。</div></div>
+
+    <div class="time">08:50</div>
+    <div class="ev move"><div class="lines"><span class="ln wk">四条通東行 15–18 分</span></div><div class="h">河原町 → 過鴨川 → 祇園</div><div class="d">一路直線，沿途會經過南座。趕的話搭 市バス 或計程車 5 分。</div></div>
+
+    <div class="time">09:00</div>
+    <div class="ev"><div class="h"><span class="tag book">已訂</span>レンタル着物岡本 八坂神社店 · 着付け</div><div class="d">祇園町 301-1，就在四条通、八坂神社西樓門旁。<strong>訂 09:00 開店第一批</strong>（原本 09:30，提前是為了把整天往前推）。セットプラン ¥2,980＋税＝<strong>¥3,278 起</strong>（全プラン着付け免費），髮型 ¥500。9:00–18:00，歸還 17:50。6 人抓 60 分鐘。<br><em>比價：</em>梨花和服 祇園店 ¥3,000 起（含髮型 ¥5,000 起），歸還 17:30；夢京都 高台寺店 歸還 18:00 最寬鬆，但在高台寺、最後要從花見小路倒走 15 分。</div></div>
+
+    <div class="time">10:05</div>
+    <div class="ev move"><div class="lines"><span class="ln bs">計程車 ×2 ／ 市バス 206・207</span></div><div class="h">「祇園」→「清水道」 <span class="yen">計程車約 ¥600–1,000／台 · 巴士均一 ¥230</span></div><div class="d"><strong>穿和服＋草履，這一段一定要搭車</strong>——清水道到清水寺還有一段上坡，體力留給後面的下坡。<em>6 人建議叫 2 台計程車</em>：5–15 分、2 台合計 ¥1,200–2,000＝每人 ¥200–330，比巴士還便宜而且準時（尖峰時巴士常滿載直接過站不停）。用 GO App 叫車，司機通常只到清水道路口。</div></div>
+
+    <div class="time">10:25</div>
+    <div class="ev"><div class="h">清水寺 <span class="yen">¥500 · 6:00–18:00</span></div><div class="d">仁王門 → 三重塔 → 本堂舞台 → 奥の院回望舞台（最好的構圖在這裡）。<em>音羽の滝常排 30 分以上，建議放棄</em>。<br>比原本的 11:20 早了快一小時進場，剛好卡在團客大量湧入之前。清水坂上段人最多，快速通過後從產寧坂分流。</div></div>
+
+    <div class="time">11:55</div>
+    <div class="ev"><div class="h"><span class="tag book">要訂</span>清修庵 清水店 · 午餐</div><div class="d">東山区清水 2-211-4 三十六峰清水店 2F，就在清水坂下山途中、完全順路。10:30–16:30（L.O. 15:00）、<strong>年中無休</strong>、80 席、6 人可線上或電話預約，午餐 ¥1,000–1,500。手打そば＋国産大豆的自家製豆腐。<br><span class="tag cash">改店原因</span><strong>原訂的 有喜屋 清水吉晴庵 週一定休</strong>——日期改到 10/26 週一之後就不能去了。<br><em>其他備案：</em>二寧坂ふたば（有桌席＋座敷）、忠僕茶屋（清水寺境內）。</div></div>
+
+    <div class="time">12:55</div>
+    <div class="ev"><div class="h">三年坂（產寧坂）→ 二年坂</div><div class="d">各停 20 分。石板路＋町家，和服拍照的主場，而且是一路往下。</div></div>
+
+    <div class="time">13:40</div>
+    <div class="ev"><div class="h">八坂庚申堂 <span class="yen">境內免費 · 9:00–17:00</span></div><div class="d">彩色「くくり猿」布猴牆，和服照的招牌背景。停 20 分。</div></div>
+
+    <div class="time">14:05</div>
+    <div class="ev"><div class="h">八坂の塔（法観寺）</div><div class="d">外觀拍照免費、隨時可拍——<em>從八坂通往西望</em>是那張人人都拍的構圖。入塔 ¥400、受付 9:00–16:00（另有 10:00–15:00 之說、不定休，要進去請先電 075-551-2417；小學生以下不可入內）。</div></div>
+
+    <div class="time">14:25</div>
+    <div class="ev"><div class="h">甜點 · かさぎ屋 或 文の助茶屋</div><div class="d">かさぎ屋（二年坂，10:00–17:30，<strong>週二休 → 10/26 週一有開</strong>，20 席、不可預約、<span class="tag cash">僅現金</span>）三色萩餅、宇治金時。<br>京甘味 文の助茶屋 京都本店（八坂の塔往東 6 分，11:00–17:00，不接受預約）招牌わらび餅。<br>兩家都不能訂，6 人建議拆兩桌或錯開時段。</div></div>
+
+    <div class="time">15:05</div>
+    <div class="ev"><div class="h">石塀小路（穿行）→ ねねの道</div><div class="d"><strong>現場貼有攝影禁止告示</strong>——安靜通行、不拍照。經 圓徳院前下到 八坂神社。</div></div>
+
+    <div class="time">15:25</div>
+    <div class="ev"><div class="h">八坂神社 <span class="yen">境內免費 · 24 小時</span></div><div class="d">南樓門進 → 本殿 → 西樓門出（西樓門就是四条通盡頭那個著名的朱紅門）。社務所 9:00–17:00，要御朱印在這裡辦。</div></div>
+
+    <div class="time">15:55</div>
+    <div class="ev"><div class="h">花見小路</div><div class="d">停 20 分。花見小路本身是公道，可走可拍。但<strong>兩側私巷禁止進入與攝影，2024 年起部分巷弄立牌「通行禁止・罰金 1 万円」</strong>，也不要追拍藝妓。</div></div>
+
+    <div class="time">16:20</div>
+    <div class="ev"><div class="h">回岡本還和服</div><div class="d">從花見小路北返四条通只要 5 分。<strong>比 17:50 的期限早了 1.5 小時</strong>——這是把清水寺提前的直接紅利，換回自己的鞋子才好逛市場。</div></div>
+
+    <div class="time">16:50</div>
+    <div class="ev move"><div class="lines"><span class="ln wk">四条通西行 15–18 分</span><span class="ln hk">或 阪急 祇園四条→京都河原町 1 站</span></div><div class="h">祇園 → 錦市場 東入口（錦小路通・寺町）</div><div class="d">腳痠就搭阪急一站到京都河原町，出站走 3 分。</div></div>
+
+    <div class="time">17:05</div>
+    <div class="ev"><div class="h">錦市場（東入口 → 西端）</div><div class="d">400m、130 多店。<strong>嚴禁邊走邊吃</strong>——買了要在店邊吃完、垃圾回原店。<br><span class="tag cash">重要</span><em>多數店 17:00–18:00 陸續收攤</em>，這個時段人最少但選擇也最少，<strong>想吃什麼先鎖定目標直接衝</strong>（海鮮、玉子燒、漬物、豆乳甜甜圈這幾家通常撐到最後）。多家傳統老店是週三定休，10/26 週一不受影響。</div></div>
+
+    <div class="time">17:50</div>
+    <div class="ev"><div class="h">新京極 · 寺町京極商店街</div><div class="d">錦市場東口出來就直接接上。這兩條拱廊<em>開到 20:00–21:00</em>，是市場收攤後最順的續攤：藥妝、雜貨、伴手禮一次買完。</div></div>
+
+    <div class="time">18:40</div>
+    <div class="ev"><div class="h">晚餐 · 河原町／先斗町</div><div class="d">收尾甜點：茶寮都路里 祇園本店（祇園辻利 2・3F，祇園四条 3 分，10:30–20:30 L.O. 19:30，不可預約、常排隊）的抹茶聖代；<em>京都伊勢丹 7F 也有分店</em>，就在阪急／JR 京都站上方，回程順路且通常比較好等。</div></div>
+
+    <div class="time">20:30</div>
+    <div class="ev move"><div class="lines"><span class="ln hk">阪急 準特急</span><span class="ln sk">堺筋線直通</span></div><div class="h">京都河原町 → 淡路 → 天下茶屋 <span class="yen">約 65 分 ¥700 · 約 21:40 到</span></div><div class="d">20:00–21:30 這個時段準特急約 15 分一班，最舒服。</div></div>
+  </div>
+
+  <div class="note warn">
+    <b>錦市場放下午的取捨，先說清楚。</b>好處是早上直接上清水寺、避開 11 點以後的團客潮，而且整天不用回頭爬坡。代價是<strong>錦市場你會逛到收攤時段（多數店 17:00–18:00 關）</strong>——攤位會比上午少三到四成。<br><em>想兩邊都要的話：</em>把甜點停留砍掉、花見小路改成 15:30 走完、<strong>15:30 還和服、16:00 進錦市場</strong>，就能多爭取一小時；或是把黑門市場（10/27）當成主要的市場行程，錦市場這裡只挑幾家名店。
+  </div>
+  <div class="note">
+    <b>末班車底線：</b>京都河原町 <strong>23:15 準特急</strong> 是阪急最後一班準特急，之後只剩到桂／正雀的普通車，<em>回不了大阪</em>。走京阪的話，祇園四条 <strong>22:44 特急</strong>（→ 北浜 → 堺筋線，¥730）是安全底線。<br>另外：<b>清水寺 10 月下旬沒有夜間拝觀</b>（2026 秋季夜間特別拝觀是 11/21–11/30），當天 18:00 就閉門——我們 11:55 就下山了，不受影響。
+  </div>
+</article>
+
+<!-- ============ D4 ============ -->
+<article class="day" id="d4">
+  <div class="day-head">
+    <div class="day-no"><span>Day 4</span><span class="wd">10 / 27 TUE</span><span>大阪南半場</span></div>
+    <h3>黑門、心齋橋、然後一路吃</h3>
+    <p class="day-sum">全天都在堺筋線與南海的射程內，沒有一段超過 10 分鐘車程。這天一次收掉三家必吃裡的兩家（カヌレ堂、さしす）＋晚上的すき焼き，中間穿購物。</p>
+    <div class="day-stats"><span>約 13,000 步</span><span>交通 ¥600／人</span><span>三餐都在行程上</span></div>
+  </div>
+
+  <div class="tt">
+    <div class="time">09:20</div>
+    <div class="ev move"><div class="lines"><span class="ln sk">堺筋線</span></div><div class="h">天下茶屋 → 日本橋 <span class="yen">3 站 6 分 ¥190</span></div></div>
+
+    <div class="time">09:30</div>
+    <div class="ev"><div class="h">黑門市場</div><div class="d">580m 拱廊、約 150 店，多數 8:00–17:00。生魚片、海膽、和牛串、玉子燒、河豚，攤位 ¥500–2,000 一樣。走食型，6 個人沒有壓力。<em>週日多數店休，所以排在週二。</em></div></div>
+
+    <div class="time">11:00</div>
+    <div class="ev"><div class="h">道具屋筋商店街</div><div class="d">廚房道具、食物模型，買伴手禮很有梗。</div></div>
+
+    <div class="time">11:40</div>
+    <div class="ev"><div class="h"><span class="tag must">必吃 2</span>カヌレ堂 CANELÉ du JAPON 長堀橋店</div><div class="d">南船場 1-17-21，長堀橋駅 234m——<em>堺筋線從天下茶屋直達 4 站，不用換車</em>。11:00–19:00，<strong>全店週三休</strong>（10/28 是週三，所以可麗露只能今天買），而且<em>賣完就關門</em>，中午前去最保險。<br>定番：白（ラム＆バニラ）、ほうじ茶、抹茶あんこ、あんず、黒糖くるみ、黒豆きなこ，1 個 ¥130–160；季節カヌレ每月 1 日換新約 ¥200。禮盒 8 個 ¥1,300 最熱賣。常溫只放 2 天。</div></div>
+
+    <div class="time">12:10</div>
+    <div class="ev"><div class="h">心齋橋筋商店街 → アメリカ村</div><div class="d">藥妝、UNIQLO、GU、大丸心齋橋；アメ村逛古著。</div></div>
+
+    <div class="time">14:00</div>
+    <div class="ev"><div class="h"><span class="tag must">必吃 4</span>すし酒場 さしす なんばウォーク店</div><div class="d">虹のまち 5-11，日本橋駅 2 號口 2 分，和難波、日本橋站地下直結。11:00–22:00（L.O. 21:00）。<br><strong>全分店不接受預約</strong>——這是刻意排在平日 14:00 的原因：實測「平日 13:00 以後大約 20 分鐘」就輪到，梅田本店則常見排 2 小時。6 人很可能被拆兩桌，主動說「分 3+3」會快很多。<br>必點：うにく ¥649（生海膽＋国産牛炙燒）、とろ鉄華巻 ¥1,078、エビ7-SEVEN- ¥1,188、うなカツサンド ¥1,298。壽司 2 貫 ¥150 起、檸檬沙瓦 ¥190。人均 ¥2,000–3,300。</div></div>
+
+    <div class="time">15:45</div>
+    <div class="ev"><div class="h">道頓堀 · 戎橋 · 法善寺横丁</div><div class="d">白天先來拍一次，晚上看燈再來一次感覺完全不同。順路：たこ焼道楽 わなか 千日前本店（南海なんば 4 分，2 樓 80 席可以坐著吃，米其林 Bib Gourmand）。</div></div>
+
+    <div class="time">18:30</div>
+    <div class="ev"><div class="h"><span class="tag must">必吃 3</span><span class="tag book">已訂</span>すき焼き 藤もと（SUKIYAKI FUJIMOTO）</div><div class="d">北堀江 1-6-24，<em>四ツ橋駅 4 號口徒步 1 分</em>。平日 17:00–23:00（L.O. 22:30）。<br><em>每人一鍋</em>、現場切肉、湯底可選醬油或京都白味噌。晚餐すき焼き套餐（含蔬菜、烏龍麵、蛋、白飯）小 100g ¥2,000–9,900／中 180g ¥3,600–17,800，依 国産牛／黒毛和牛／神戸牛 分級。42 席、無包廂、只能併桌。<br>順帶一提：平日午餐限定的「藤もとの牛丼」¥1,500（附迷你沙拉、生蛋、味噌湯）是這家的隱藏 CP 值王，如果哪天中午經過可以再來一次。</div></div>
+
+    <div class="time">20:30</div>
+    <div class="ev move"><div class="lines"><span class="ln yt">四つ橋線</span><span class="ln nk">南海</span></div><div class="h">道頓堀夜景 → 天下茶屋</div><div class="d">四ツ橋走到心齋橋／道頓堀約 8 分，看完燈從なんば搭南海回家。</div></div>
+  </div>
+</article>
+
+<!-- ============ D5 ============ -->
+<article class="day" id="d5">
+  <div class="day-head">
+    <div class="day-no"><span>Day 5</span><span class="wd">10 / 28 WED</span><span>彈性日</span></div>
+    <h3>可替換的一日遊：預設奈良</h3>
+    <p class="day-sum">這天是你要自己決定的一天。下面是<strong>奈良</strong>的完整時刻（車程只要 45 分，是四個方案裡最短的）；另外三個方案——<a href="#plan-b">宇治＋伏見稻荷</a>、<a href="#plan-c">嵐山＋仁和寺</a>、<a href="#plan-d">貴船＋三千院</a>——的完整時程表放在文件最後面，格式一樣，可以直接整天替換。<strong>這天現在是週三，有一個副作用要先知道：</strong>嵐山方案（C）的トロッコ列車平常<em>週三運休</em>（行楽期除外），選 C 之前務必先查 2026 年 10 月的官方運行日曆或電 075-861-7444；貴船大原方案（D）的午餐店「来隣」也是<em>週三休</em>。A 奈良與 B 宇治伏見不受影響。</p>
+    <div class="day-stats"><span>單程 45 分</span><span>約 12,000 步</span><span>約 ¥9,300／人（不看正倉院展 ¥5,600）</span></div>
+  </div>
+
+  <div class="tt">
+    <div class="time">07:55</div>
+    <div class="ev move"><div class="lines"><span class="ln sk">堺筋線</span><span class="ln wk">步行 5 分</span><span class="ln kt">近鉄奈良線 快速急行</span></div><div class="h">天下茶屋 → 日本橋 → 近鉄日本橋 → 近鉄奈良 <span class="yen">45 分 ¥920</span></div><div class="d">近鉄特急不必買——只快 5 分鐘卻要多 ¥520。JR 奈良駅離奈良公園多 1.1km，走近鉄。</div></div>
+
+    <div class="time">09:00</div>
+    <div class="ev"><div class="h">登大路 → 南大門 · 餵鹿 <span class="yen">鹿せんべい ¥200</span></div><div class="d">南大門前是煎餅攤最密的地方。技巧：紙袋先收好（鹿會咬袋子）、高舉後快速給完、別逗牠。</div></div>
+
+    <div class="time">09:20</div>
+    <div class="ev"><div class="h">東大寺 大仏殿 <span class="yen">¥800 · 7:30 開門</span></div><div class="d">7:30 開門是最大優勢，這個時間點修學旅行團還沒完全湧進來。</div></div>
+
+    <div class="time">10:20</div>
+    <div class="ev"><div class="h">二月堂・三月堂 <span class="yen">二月堂免費</span></div><div class="d">二月堂舞台可以俯瞰整個奈良盆地，是很多人漏掉的隱藏亮點。</div></div>
+
+    <div class="time">10:50</div>
+    <div class="ev"><div class="h">若草山麓・水谷茶屋</div><div class="d">茅葺茶屋是經典構圖。想上若草山一重目＋¥150、往返約 30 分（選配）。</div></div>
+
+    <div class="time">11:15</div>
+    <div class="ev"><div class="h">春日大社 本殿特別参拝 <span class="yen">¥700 · 9:00–16:00</span></div><div class="d">石燈籠參道走過去很有感。</div></div>
+
+    <div class="time">12:30</div>
+    <div class="ev"><div class="h"><span class="tag book">要訂</span>粟 ならまち店 · 午餐</div><div class="d">勝南院町 1，完全預約制。4 人以上、一週前預約可安排<em>個室</em>——6 人正好。「収穫祭」御膳 ¥3,800。11:30–14:30（最終入店 13:00）。週二休（我們是週三，OK）。0742-24-5699 或 TableCheck。<br><em>釜めし備案：</em>志津香 公園店（位置最好但不接受訂位、43 席全吧台、要排隊；週二休 → 週三有開）。<strong>志津香 大宮店 週一、二休，10/28 週三有開而且可以訂位</strong>——改到週三之後多出這個選項，6 人想坐下來吃釜めし就訂它。</div></div>
+
+    <div class="time">14:00</div>
+    <div class="ev"><div class="h">ならまち散策＋中谷堂 よもぎ餅 <span class="yen">¥200／個</span></div><div class="d">格子の家、奈良町資料館、庚申堂。中谷堂的高速搗麻糬沒有固定時間表，官方說下午到傍晚客人最多、搗得最勤。</div></div>
+
+    <div class="time">14:50</div>
+    <div class="ev"><div class="h">猿沢池 → 興福寺 五重塔・東金堂 <span class="yen">東金堂 ¥300</span></div><div class="d">国宝館 ¥700 是選配（阿修羅像在這裡）。</div></div>
+
+    <div class="time">16:00</div>
+    <div class="ev"><div class="h"><span class="tag book">要訂</span>正倉院展 · 奈良国立博物館 <span class="yen">レイト割 ¥1,500</span></div><div class="d">2026 會期 <strong>10/24–11/9</strong>，會期中無休。週一至四 16:00 以後的時段適用レイト割（10/28 週三符合，省 ¥500 而且人少）。<em>必須事先買日時指定券</em>（9/4 已開賣，ローソンチケット L 碼 57878 等）。一年只有兩週能看到正倉院寶物。</div></div>
+
+    <div class="time">17:40</div>
+    <div class="ev move"><div class="lines"><span class="ln kt">近鉄 快速急行</span><span class="ln sk">堺筋線</span></div><div class="h">近鉄奈良 → 天下茶屋 <span class="yen">18:35 到</span></div></div>
+
+    <div class="time">19:00</div>
+    <div class="ev"><div class="h">晚餐 · 天下茶屋周邊</div><div class="d">おでん まる米（駅前ビル，12:00–21:00，食べログ 3.68，14 席要電話訂）／焼とんya たゆたゆ／超豚骨 濃度8。<br><span class="tag cash">注意</span><strong>立ち食い寿司 越中屋 週三休 → 10/28 這天吃不到</strong>，想去要改排其他晚上（它可訂位、僅 8 席、6 人幾乎包場）。</div></div>
+  </div>
+
+  <div class="note warn">
+    <b>人潮誠實提醒：</b>奈良公園秋季本來就屬「非常混雜」，加上正倉院展會更擠，10 月下旬平日上午還會遇到修學旅行團。這份行程把東大寺放在 9:20、正倉院展放在 16:00，剛好是兩個低谷。
+  </div>
+</article>
+
+<!-- ============ D6 ============ -->
+<article class="day" id="d6">
+  <div class="day-head">
+    <div class="day-no"><span>Day 6</span><span class="wd">10 / 29 THU</span><span>大阪北半場</span></div>
+    <h3>天守閣、梅田、然後在 300 公尺高看夕陽</h3>
+    <p class="day-sum">白天走歷史與購物，傍晚上阿倍野哈魯咖斯接日落（10 月下旬約 17:05 天黑），晚上下到新世界吃串カツ——通天閣就在旁邊，回天下茶屋只有 1 站。</p>
+    <div class="day-stats"><span>約 13,000 步</span><span>交通 ¥800／人</span><span>門票 ¥2,600</span></div>
+  </div>
+
+  <div class="tt">
+    <div class="time">08:40</div>
+    <div class="ev move"><div class="lines"><span class="ln sk">堺筋線</span><span class="ln ch">中央線</span></div><div class="h">天下茶屋 → 堺筋本町 → 谷町四丁目 <span class="yen">約 20 分 ¥240</span></div></div>
+
+    <div class="time">09:00</div>
+    <div class="ev"><div class="h">大阪城公園 · 天守閣 <span class="yen">¥600 · 9:00–17:00</span></div><div class="d">大手門 → 櫓 → 天守閣（8 樓展望台）→ 西の丸庭園。9:00 一開門進去，人潮還沒滿。</div></div>
+
+    <div class="time">11:45</div>
+    <div class="ev move"><div class="lines"><span class="ln tn">谷町線</span><span class="ln wk">步行</span></div><div class="h">→ 中之島</div><div class="d">大阪市中央公会堂（紅磚辰野式建築）、府立中之島圖書館、中之島公園沿河散步。</div></div>
+
+    <div class="time">12:30</div>
+    <div class="ev"><div class="h">午餐 · 北浜／淀屋橋</div><div class="d">淀屋橋ステーションワン 與 北浜的老建築餐廳都不錯。<em>注意：</em>カヌレ堂 淀屋橋店 週三休、10/29 週四有開，但可麗露 10/27 已經買過，不用再繞過去。</div></div>
+
+    <div class="time">14:15</div>
+    <div class="ev move"><div class="lines"><span class="ln md">御堂筋線</span></div><div class="h">淀屋橋 → 梅田 <span class="yen">2 站</span></div></div>
+
+    <div class="time">14:30</div>
+    <div class="ev"><div class="h">梅田</div><div class="d">グランフロント大阪、阪急百貨店（本館 B1 食品街必逛）、HEP FIVE 紅色摩天輪 ¥600、ヨドバシ梅田、KITTE 大阪、阪神的名物「イカ焼き」。第一次來大阪的人在這裡最容易失控，留 2.5 小時。</div></div>
+
+    <div class="time">17:15</div>
+    <div class="ev move"><div class="lines"><span class="ln md">御堂筋線</span></div><div class="h">梅田 → 天王寺 <span class="yen">約 17 分</span></div></div>
+
+    <div class="time">17:40</div>
+    <div class="ev"><div class="h">あべのハルカス 展望台「ハルカス300」 <span class="yen">¥2,000 · 9:00–22:00</span></div><div class="d">日本最高的建築之一，300m 三層挑空展望。抓 17:40 上去正好吃到<em>日落＋藍調時刻＋全暗夜景</em>三段。</div></div>
+
+    <div class="time">19:20</div>
+    <div class="ev move"><div class="lines"><span class="ln md">御堂筋線</span></div><div class="h">天王寺 → 動物園前 → 新世界</div><div class="d">1 站，出站走 5 分。</div></div>
+
+    <div class="time">19:30</div>
+    <div class="ev"><div class="h"><span class="tag book">要訂</span>元祖串かつ だるま 動物園前店</div><div class="d">恵美須東 2-4-5。平日 11:00–22:30。<em>全大阪唯一能訂位的だるま</em>，50 席含 14 席座敷，2 人以上可訂（ebica 線上／06-6630-8230），限時 90 分。年中無休。人均 ¥1,001–3,000。醬汁不能二次沾，記住這條規矩。<br><span class="tag cash">日期改動的影響</span><strong>八重勝 週四定休 → 10/29 這天不開</strong>（原本排 10/28 才吃得到）。想吃硬派串カツ的替代：串かつ だるま 新世界総本店／通天閣店（不可訂位、現場排）、或 横綱 新世界本店。<em>已訂的だるま 動物園前店 年中無休，不受影響。</em></div></div>
+
+    <div class="time">21:15</div>
+    <div class="ev move"><div class="lines"><span class="ln wk">步行</span><span class="ln sk">堺筋線</span></div><div class="h">通天閣夜景 → 動物園前 → 天下茶屋 <span class="yen">1 站</span></div><div class="d">這天晚上離家最近，可以放心多喝一杯。</div></div>
+  </div>
+</article>
+
+<!-- ============ D7 ============ -->
+<article class="day" id="d7">
+  <div class="day-head">
+    <div class="day-no"><span>Day 7</span><span class="wd">10 / 30 FRI</span><span>回程</span></div>
+    <h3>從神戶飛，就把神戶玩完再走</h3>
+    <p class="day-sum">19:00 的班機讓這天多出一個完整的半天。行李早上直接帶去三宮寄放（不要留在天下茶屋，否則下午得折回來），玩到 16:00 取行李，16:15 上港灣人工島線。</p>
+    <div class="day-stats"><span>約 8,000 步</span><span>行李寄放約 ¥4,800／6 件</span><span>三宮最晚發車 16:30</span></div>
+  </div>
+
+  <div class="tt">
+    <div class="time">08:30</div>
+    <div class="ev"><div class="h">退房</div></div>
+
+    <div class="time">08:45</div>
+    <div class="ev move"><div class="lines"><span class="ln nk">南海</span><span class="ln wk">步行</span><span class="ln hs">阪神 快速急行</span><span class="ln pt">＋ポートライナー</span></div><div class="h">天下茶屋 → なんば → 大阪難波 → 神戸三宮 <span class="yen">約 09:55 到 ¥600</span></div><div class="d"><em>行李多的替代路線：</em>南海到新今宮 → JR 環狀線大阪 → JR 神戸線<strong>新快速</strong>三ノ宮（¥1,130、約 1 小時 15 分）。新快速約 15 分一班、車廂有行李空間、誤點少。</div></div>
+
+    <div class="time">10:15</div>
+    <div class="ev"><div class="h">たびサポ 神戸三宮 荷物預かり所 · 寄行李</div><div class="d">北長狭通 1-30-15，機場利木津巴士站正前方，JR 三ノ宮西口／阪急神戸三宮 步行 1–2 分。09:00–19:00 無休。L 尺寸（60–70cm）¥800／件、LL ¥1,000，平日不加價，6 件約 ¥4,800。原則上不用預約但團體先打電話。<br><em>不要靠投幣櫃：</em>三宮一帶雖有 1,200 多個櫃，但大型櫃分散在好幾棟建物，週五上午容易被佔滿——6 個大箱子太冒險。</div></div>
+
+    <div class="time">10:45</div>
+    <div class="ev"><div class="h">北野異人館</div><div class="d">三宮步行 15–20 分（上坡）。<em>只有 90 分鐘的話，買 2 館單票更划算</em>：うろこの家 ¥1,050＋山手八番館 ¥550 ≈ ¥1,600，不必買 ¥3,000 的七館 premium pass。風見鶏の館・萌黄の館 屬另一售票系統。開館時間 2026 年版請當天再確認。</div></div>
+
+    <div class="time">12:30</div>
+    <div class="ev"><div class="h"><span class="tag book">要訂</span>神戸ステーキレストラン モーリヤ 三宮店 · 午餐</div><div class="d">北長狭通 1-9-9 第一岸ビル 3F——<em>距離寄行李的たびサポ 約 1 分鐘</em>，動線完美。神戶牛鐵板燒，官網線上訂位（有英文），收 VISA／Master／JCB／銀聯／Alipay。訂位時確認三宮店的午餐價位與 6 人座位。<br><em>不建議：</em>ステーキランド神戸館（便宜但只能現場排長隊）、南京町的老祥記／民生（都是長龍名店，中午幾乎無法為 6 人訂位）。</div></div>
+
+    <div class="time">14:00</div>
+    <div class="ev"><div class="h">南京町 食べ歩き ＋ 元町商店街</div><div class="d">元町距三宮步行約 10 分、全程平坦。豚饅、小籠包邊走邊吃，順路買伴手禮。</div></div>
+
+    <div class="time">15:00</div>
+    <div class="ev"><div class="h">メリケンパーク／神戸ポートタワー <span class="yen">選配</span></div><div class="d">元町步行 10–12 分。體力不夠就砍掉這段，多留時間在元町。</div></div>
+
+    <div class="time">15:50</div>
+    <div class="ev"><div class="h">回たびサポ 取行李</div></div>
+
+    <div class="time">16:15</div>
+    <div class="ev move"><div class="lines"><span class="ln pt">ポートライナー</span></div><div class="h">三宮 → 神戸空港 <span class="yen">18 分 ¥340</span></div><div class="d">白天 6–10 分一班。<strong>安全線 16:30、絕對底線 17:00</strong>——6 人團請以 16:30 為上限。</div></div>
+
+    <div class="time">16:40</div>
+    <div class="ev move"><div class="lines"><span class="ln bs">免費接駁 6 分</span></div><div class="h">神戸空港駅（T1） → T2 國際線</div></div>
+
+    <div class="time">17:00</div>
+    <div class="ev"><div class="h">Check-in · 出境</div><div class="d">T2 很小，實測「到達航廈到通過安檢＋出境進入登機區只花 20 分鐘」，店舖僅約 4 間。<strong>長榮託運截止＝18:00（起飛前 60 分）</strong>。Lounge KOBE 08:30–19:00（非信用卡貴賓室，能否使用依航空公司條件）。</div></div>
+
+    <div class="time">19:00</div>
+    <div class="ev"><div class="h"><span class="tag" style="background:var(--sea-soft);color:var(--sea);border:1px solid color-mix(in srgb,var(--sea) 35%,transparent)">BR175</span>神戸 → 桃園 <span class="yen">20:55 抵達</span></div></div>
+  </div>
+
+  <div class="note">
+    <b>低強度備案（不去神戶，留在大阪）：</b>09:30 行李寄住宿 → 10:00–11:15 黑門市場（堺筋線 2 站）→ 11:30–13:00 なんば 最後採購（なんばCITY／パークス／高島屋／ドンキ／道具屋筋）→ 13:30 回天下茶屋取行李 → <strong>14:30–15:00 出發</strong>（絕對底線 15:45）→ 15:45 三宮 → 16:05 港灣人工島線 → 16:20 到 T2。<br>還有一個完全不用換車的選項：<em>大阪バス 神戸空港利木津</em>，大阪駅 15:10 發、¥1,000、約 70 分、<strong>直達 T2</strong>——但一天只有 4 班而且<em>不接受預約</em>（定員制先到先上），6 人一起搭滿載風險高、沒有備援，要用請先電話向大阪バス確認 2026 時刻。
+  </div>
+</article>
+
+<!-- ============ OPTIONS ============ -->
+<section id="options">
+  <div class="sec-head"><h2>10/28 的四個備案</h2><span class="hint">自搭電車 · 可整天替換</span></div>
+  <p style="margin-top:14px;color:var(--ink-2);max-width:64ch">四個都是從天下茶屋出發、當天來回、不需要跟團的方案。先看下面的取捨比較，四個的<strong>完整時程表</strong>接在後面（奈良在 Day 5）。最後附上和 KKday 天橋立巴士團的比較。</p>
+
+  <div class="opts">
+    <div class="opt pick">
+      <div class="k">方案 A · 已寫入 Day 5</div>
+      <h4>奈良</h4>
+      <p class="why">車程最短、最「經典日本」，而且 10/24–11/9 剛好碰上正倉院展——一年只有兩週。缺點是人潮最兇。</p>
+      <dl>
+        <dt>單程</dt><dd>45 分 · ¥920（近鉄）</dd>
+        <dt>步行</dt><dd>5–6 km，緩坡</dd>
+        <dt>費用</dt><dd>約 ¥9,300／人（不看正倉院展 ¥5,600）</dd>
+        <dt>亮點</dt><dd>大佛、餵鹿、二月堂俯瞰、正倉院寶物</dd>
+        <dt>要先訂</dt><dd>正倉院展日時指定券、粟 ならまち店</dd>
+      </dl>
+    </div>
+
+    <div class="opt">
+      <div class="k">方案 B · 最省心</div>
+      <h4>宇治 ＋ 伏見稻荷</h4>
+      <p class="why">最便宜、休館風險最低、幾乎不用事先訂任何東西。千本鳥居的黃昏是三案裡最強的單一時刻。</p>
+      <dl>
+        <dt>路線</dt><dd>堺筋線 → 北浜 → 京阪特急 → 中書島 → 宇治線（1 小時 13 分 ¥730）；再 宇治 → 中書島 → <em>普通／準急</em> → 伏見稻荷（¥360）</dd>
+        <dt>費用</dt><dd>約 ¥6,000／人（三案最省）</dd>
+        <dt>關鍵</dt><dd><strong>平等院鳳凰堂內部拝觀先到先得</strong>：9:10 開始發整理券，9:30–16:10 每 20 分 50 人，額滿即止 → 必須早上到（¥700＋內部 ¥300）</dd>
+        <dt>抹茶</dt><dd>中村藤吉本店（JR 宇治駅前，不接受訂位；平日 11:00 前約等 0–20 分）／伊藤久右衛門／中村藤吉 平等院店</dd>
+        <dt>鳥居</dt><dd>免費、24 小時。<em>奧社奉拝所</em>往返 30–45 分（必達）；四辻 1–1.5 小時（加分）；山頂 2–3 小時（不建議）。<strong>16:15–17:30 進場最好</strong>——團客散了、燈籠亮了，17:05 日落</dd>
+        <dt>注意</dt><dd>京阪特急<em>不停</em>伏見稻荷；一日券兩張都不划算，直接刷 IC；平等院茶房「藤花」週一至三休 → 10/28 仍休</dd>
+      </dl>
+    </div>
+
+    <div class="opt">
+      <div class="k">方案 C · 體驗感最強</div>
+      <h4>嵐山 ＋ 仁和寺</h4>
+      <p class="why">竹林、雲龍圖、小火車，還可以加人力車。但最依賴搶票——而且<strong>彈性日改到 10/28 週三之後，トロッコ的運休風險回來了</strong>，選這案要先查運行日曆。</p>
+      <dl>
+        <dt>路線</dt><dd>堺筋線<em>直通阪急</em>（搭「高槻市行」）→ 淡路 → 特急 → 桂 → 嵐山線（1 小時 11 分 ¥680）</dd>
+        <dt>費用</dt><dd>約 ¥7,000–9,400／人</dd>
+        <dt>小火車</dt><dd>嵯峨野トロッコ 片道 ¥880、7.3km／25 分。<strong>乘車日前 1 個月開賣（10/28 搭＝9/28 搶）</strong>，秋天最旺。<strong>平常週三運休（僅春假、暑假、黃金週、紅葉期例外），10/28 正好是週三</strong>——10 月下旬算不算官方定義的行楽期未能確認，<em>請先打 075-861-7444 或查官網 2026 年運轉計畫カレンダー，確認有開才安排這案</em>。另外 梅小路京都鉄道博物館 也是週三休館。現役車輛 2026 年底退役，這是最後一年</dd>
+        <dt>天龍寺</dt><dd>庭園 ¥500＋諸堂 ¥300＋<em>法堂「雲龍圖」¥500（9/19–12/6 每日開放，平時只有週末）</em>。北門直接通竹林，可避開正門人流</dd>
+        <dt>午餐</dt><dd>篩月（天龍寺直營精進料理，雪 ¥3,800）——嵐山少數能訂 6 人的店，<strong>最晚 3 天前</strong>官網表單，確認信人工回覆要等幾天</dd>
+        <dt>人力車</dt><dd>えびす屋 竹林 30 分：6 人需 3 台約 ¥30,000（每人 ¥5,000）。車夫走觀光客不知道的小徑並全程解說，竹林人擠時價值最高</dd>
+        <dt>配對</dt><dd>仁和寺（嵐電「御室仁和寺」站就在山門前，不用轉巴士，平日極空）＞ 金閣寺（要搭市巴士、人多）＞ 梅小路鐵道博物館（<em>週三休館</em>）</dd>
+      </dl>
+    </div>
+
+    <div class="opt">
+      <div class="k">方案 D · 最深山</div>
+      <h4>貴船神社 ＋ 三千院</h4>
+      <p class="why">京都北山的兩個谷地。紅色春日燈籠石階＋杉林溪流，配上大原的苔庭與額緣庭園。技術上成立，但移動時間比景點時間還長。</p>
+      <dl>
+        <dt>單程</dt><dd>約 2 小時（天下茶屋→貴船神社）· 全天車資 ¥3,650</dd>
+        <dt>費用</dt><dd>約 ¥5,450／人（交通＋門票，不含餐）</dd>
+        <dt>關鍵</dt><dd>兩地<strong>沒有直達巴士</strong>（原 55 系統已停駛）。最快的連結是 <em>貴船口 →〔京都バス 52〕→ 国際会館 →〔19／特17〕→ 大原</em>，44 分 ¥710——比繞回出町柳快 20–30 分、便宜 ¥250</dd>
+        <dt>硬牆</dt><dd><strong>大原往出町柳的平日末班巴士 17:27</strong>；宝泉院受付 16:30 截止；京都バス 33 系統首班 09:05（早到只能走 30 分上坡）</dd>
+        <dt>10 月底</dt><dd>兩地都<em>還沒紅葉</em>（大原 11 月初起、貴船 11 月中下旬）；<strong>貴船川床 9/30 已結束</strong>；もみじ灯篭 11/1 才開始</dd>
+        <dt>意外加分</dt><dd>三千院「もみじ祭」秘仏金色不動明王特別開扉——一個來源記 10/24 起、另一個記 10/28 起，<strong>改到 10/28 之後兩種說法都成立</strong>，看得到的機率反而變高。仍建議電話確認</dd>
+      </dl>
+    </div>
+  </div>
+
+  <div class="note warn">
+    <b>選 B / C / D 之前先看這件事：季節。</b>10 月下旬是「錯開紅葉、天氣好、人相對少」的甜蜜點，但也意味著紅葉相關的賣點全部無效——大原見頃 11 月初起、貴船 11 月中下旬、嵐山與宇治 11 月下旬；叡山電車「もみじのトンネル」的點燈與徐行運轉是 <em>11/1 起</em>的活動；貴船的川床 9/30 就收了。<br><strong>方案 B（宇治＋伏見稻荷）受影響最小</strong>——鳳凰堂與千本鳥居本來就不靠紅葉，而且千本鳥居的黃昏（16:15 進場、17:05 日落）是四個方案裡最強的單一時刻。<br><strong>方案 D 受影響最大</strong>——貴船與大原的招牌畫面就是紅葉。10/28 去要改用「杉林＋溪流＋苔庭」的角度看，賣點請換成三千院的杉苔庭園與宝泉院的額緣庭園。
+  </div>
+
+  <div class="note">
+    <b>KKday 天橋立＋伊根巴士團怎麼比：</b>它唯一但決定性的優勢是<em>可達性</em>——天橋立從大阪搭公共交通單程約 2 小時 40 分–3 小時、要轉 2–3 次還要付特急料金，自搭一天玩天橋立＋伊根基本上不現實。代價是：旅客實錄的集合時間是 <strong>06:50 難波 OCAT／07:20 JR 大阪站西梅田</strong>（＝天下茶屋約 06:20 出門，比 A/B/C 早一小時四十分），19:00–19:30 才回大阪；天橋立固定 120 分、伊根固定 60 分，零彈性；巴士不保證 6 人連號。好處是全程中文導遊。<br>價格請抓 <strong>NT$1,300–1,900／人</strong>（同型 Klook 產品 HK$407、KKday 自家部落格列 HK$330 起）。<em>注意：</em>KKday 140338 的英文版頁面曾顯示 SOLD OUT，要用請先確認 10 月下旬有位。<br><b>我的建議：</b>6 人裡多數第一次來關西 → 先做奈良或宇治伏見，錢花在門票和吃上比花在車上划算，天橋立留給下一趟。
+  </div>
+</section>
+
+<!-- ============ FULL PLANS ============ -->
+<section id="plans">
+  <div class="sec-head"><h2>備案的完整時程表</h2><span class="hint">格式同前面每一天 · 可整天替換 10/28</span></div>
+  <p style="margin-top:14px;color:var(--ink-2);max-width:64ch">奈良的時程表在 <a href="#d5">Day 5（10/28）</a>。下面三個是另外三個方案，寫法一樣詳細，挑好之後就把 10/28 整天換過去。四個方案的取捨在<a href="#options">上一節</a>。</p>
+</section>
+
+<article class="day" id="plan-b">
+  <div class="day-head">
+    <div class="day-no"><span>方案 B</span><span class="wd">10 / 28 WED</span><span>最省心 · 最便宜</span></div>
+    <h3>宇治：抹茶與國寶，然後在千本鳥居看天黑</h3>
+    <p class="day-sum">順序不能反。<strong>平等院鳳凰堂的內部拝觀是先到先得</strong>——9:10 開始發整理券、9:30–16:10 每 20 分鐘 50 人、額滿即止，所以宇治必須放上午；而伏見稻荷免費、24 小時開放，是四個方案裡唯一能放在最後、甚至越晚越好的景點。</p>
+    <div class="day-stats"><span>車資 ¥1,810／人</span><span>約 ¥6,000／人</span><span>6–7 km</span><span>幾乎不用事先訂</span></div>
+  </div>
+
+  <div class="tt">
+    <div class="time">07:35</div>
+    <div class="ev move"><div class="lines"><span class="ln sk">堺筋線</span></div><div class="h">天下茶屋 → 北浜 <span class="yen">11 分 ¥240</span></div><div class="d">堺筋線直達，不用換車。北浜的地鐵站與京阪站地下連通。</div></div>
+
+    <div class="time">07:55</div>
+    <div class="ev move"><div class="lines"><span class="ln kh">京阪本線 特急</span></div><div class="h">北浜 → 中書島 <span class="yen">約 45 分</span></div><div class="d">京阪特急不加價（只有プレミアムカー 要另收），早上往京都是逆向通勤，一定有座位。</div></div>
+
+    <div class="time">08:40</div>
+    <div class="ev move"><div class="lines"><span class="ln kh">京阪宇治線</span></div><div class="h">中書島 → 京阪宇治 <span class="yen">約 15 分</span></div></div>
+
+    <div class="time">08:55</div>
+    <div class="ev"><div class="h">京阪宇治駅 → 過宇治橋 → 平等院表参道</div><div class="d">京阪宇治駅離平等院、宇治上神社比 JR 宇治駅近；JR 宇治駅則離中村藤吉本店只要 1 分。<em>一進一出剛好各用一個站。</em></div></div>
+
+    <div class="time">09:05</div>
+    <div class="ev"><div class="h">平等院 · 入場後<em>立刻</em>領鳳凰堂整理券 <span class="yen">庭園＋鳳翔館 ¥700 · 內部 ＋¥300</span></div><div class="d">8:45 開門（受付終了 17:15），<strong>年中無休</strong>。<em>先去領券再逛庭園</em>——9:10 開始發，領到 9:30 的場次最理想。額滿即止，法會時可能中止。</div></div>
+
+    <div class="time">09:10</div>
+    <div class="ev"><div class="h">庭園・阿字池・鳳翔館</div><div class="d">從阿字池對岸看鳳凰堂就是十円硬幣的那個角度。</div></div>
+
+    <div class="time">09:30</div>
+    <div class="ev"><div class="h">鳳凰堂 內部拝觀（20 分）</div><div class="d">阿彌陀如來坐像＋雲中供養菩薩，一場只有 50 人。</div></div>
+
+    <div class="time">09:55</div>
+    <div class="ev"><div class="h">鳳翔館（續看）</div><div class="d">国宝雲中供養菩薩、梵鐘、鳳凰。館內是現代建築，冷氣很舒服。</div></div>
+
+    <div class="time">10:25</div>
+    <div class="ev"><div class="h">宇治川右岸散步 → 宇治神社</div><div class="d">塔の島、喜撰橋、朝霧橋（朱紅色）。《源氏物語》宇治十帖的場景就在這一段。</div></div>
+
+    <div class="time">11:10</div>
+    <div class="ev"><div class="h">宇治上神社 <span class="yen">免費</span></div><div class="d">世界遺產，<em>日本最古老的神社建築</em>（国宝拝殿）。人比平等院少很多。開放時間常見資料為 9:00–16:30（未能官方確認）。</div></div>
+
+    <div class="time">11:45</div>
+    <div class="ev"><div class="h"><span class="tag book">建議先電話</span>午餐 · 福寿園 宇治工房「宇治茶亭」</div><div class="d">宇治玉川 1-1，宇治川畔。11:30–16:00、不定休。茶そば ¥990–1,100、抹茶ソフト ¥440–880。<br><em>重點是這個：</em>可以做<strong>自己刷抹茶／自己泡茶的喫茶體驗 ¥880–1,100</strong>——6 個人一起做比排隊有趣得多。是否收 6 人預約未能確認，請先電 050-3152-2932。<br><em>備案：</em>中村藤吉 平等院店（2025/9 翻新重開，有生茶蕎麥與店舖限定芭菲，就在上午的動線上）。</div></div>
+
+    <div class="time">13:00</div>
+    <div class="ev"><div class="h">甜點 · 中村藤吉本店（JR 宇治駅前 1 分）</div><div class="d">10:00–17:30，咖啡廳入店至 16:00、L.O. 16:30。<strong>不接受訂位</strong>——排在平日 13:00 是刻意的：週末假日常等 60–90 分，10 月下旬平日這個時段通常 0–20 分。<br>招牌：<em>生茶ゼリイ「抹茶」</em>、まるとパフェ。人均 ¥1,000–2,999。<br><em>更好等的替代：</em>伊藤久右衛門 宇治本店茶房（宇治橋往東北 15 分，10:00–18:00，依到店順序）。</div></div>
+
+    <div class="time">14:15</div>
+    <div class="ev move"><div class="lines"><span class="ln kh">京阪宇治線</span><span class="ln kh">京阪本線 普通／準急</span></div><div class="h">京阪宇治 → 中書島 → 伏見稻荷 <span class="yen">約 32 分 ¥360</span></div><div class="d"><strong>京阪特急不停伏見稻荷</strong>——中書島換車時要挑普通或準急。</div></div>
+
+    <div class="time">14:50</div>
+    <div class="ev"><div class="h">伏見稻荷大社 <span class="yen">免費 · 24 小時開放</span></div><div class="d">京阪伏見稻荷駅步行 5 分。楼門 → 外拝殿 → 本殿。授与所 8:30–16:00（要買御守／御朱印請先辦）。</div></div>
+
+    <div class="time">15:35</div>
+    <div class="ev"><div class="h">千本鳥居 → 奥社奉拝所（往返 30–45 分）</div><div class="d">石階平緩、輕鬆。<em>90% 的經典照片都在這一段。</em>奥社的「おもかる石」——許願後抬石頭，覺得比想像輕就會實現。</div></div>
+
+    <div class="time">16:15</div>
+    <div class="ev"><div class="h">（選配）續爬 四辻 <span class="yen">往返 1–1.5 小時</span></div><div class="d">京都市街展望最好的一點，連續石階、中等強度。<em>山頂一ノ峰（233m）不建議</em>——往返 2–3 小時、山頂無展望，走了一整天 CP 值最低。<br><strong>這個時段是刻意的：</strong>17:05 日落，16:15–17:30 剛好吃到「團客散去」＋「燈籠亮起的暮色」雙紅利。下四辻時記得開手機照明。</div></div>
+
+    <div class="time">17:10</div>
+    <div class="ev"><div class="h">下山 ＋ 参道小吃</div><div class="d">稲荷寿司、うずら／すずめ焼き、きつねせんべい。</div></div>
+
+    <div class="time">17:55</div>
+    <div class="ev move"><div class="lines"><span class="ln kh">京阪 普通</span><span class="ln kh">丹波橋換 特急</span><span class="ln sk">堺筋線</span></div><div class="h">伏見稻荷 → 丹波橋 → 北浜 → 天下茶屋 <span class="yen">約 1 小時 6 分 ¥720 · 19:10 到</span></div><div class="d">回程也要先搭普通到丹波橋才換得到特急。</div></div>
+  </div>
+
+  <div class="note">
+    <b>為什麼這個方案最省心：</b>平等院年中無休、伏見稻荷無休、宇治上神社無休——<em>四個方案裡休館風險最低的一個</em>，而且不需要事先訂任何門票或餐廳（宇治的抹茶名店全部不收訂位，所以也沒有「訂不到」的問題）。<br><b>票券算過了：</b>京阪「大阪・京都1日乗車券」¥1,650 與「京都1日乗車券」¥1,100 都<em>不划算</em>——你實際的京阪花費只有 ¥1,330，而且前者不含大阪 Metro。直接刷 ICOCA。<br><b>小提醒：</b>平等院茶房「藤花」週一至週三休，10/28 是週三，一樣不用排。
+  </div>
+</article>
+
+<article class="day" id="plan-c">
+  <div class="day-head">
+    <div class="day-no"><span>方案 C</span><span class="wd">10 / 28 WED</span><span>體驗感最強</span></div>
+    <h3>嵐山：竹林、雲龍圖、還有最後一年的小火車</h3>
+    <p class="day-sum">這個方案的核心是兩張要提前搶的票：<strong>トロッコ列車</strong>（乘車日前 1 個月開賣，10/28 搭＝9/28 就要搶）和<strong>篩月</strong>的精進料理（最晚 3 天前，確認信人工回覆要等幾天）。訂到了就是最有「體驗」的一天；沒訂到這個方案就掉一半分數。<br><strong>但先做這一步：</strong>10/28 是週三，トロッコ平常週三運休，<em>先確認當天有開再開始規劃</em>；沒開的話這案直接換成 A 或 B。</p>
+    <div class="day-stats"><span>車資 ¥2,060／人</span><span>約 ¥7,000–9,400／人</span><span>5–6 km · 最平緩</span><span>2 張票要搶</span></div>
+  </div>
+
+  <div class="tt">
+    <div class="time">07:50</div>
+    <div class="ev move"><div class="lines"><span class="ln sk">堺筋線 → 阪急直通</span></div><div class="h">天下茶屋 → 淡路 <span class="yen">¥680（全程至嵐山）</span></div><div class="d"><em>看目的地板：</em>搭「高槻市行」可以直接開上阪急京都線到淡路，不用在天神橋筋六丁目下車換車（「北千里行」走千里線，也會經過淡路）。</div></div>
+
+    <div class="time">08:15</div>
+    <div class="ev move"><div class="lines"><span class="ln hk">阪急京都線 特急</span></div><div class="h">淡路 → 桂 <span class="yen">約 27 分</span></div></div>
+
+    <div class="time">08:42</div>
+    <div class="ev move"><div class="lines"><span class="ln hk">阪急嵐山線</span></div><div class="h">桂 → 嵐山 <span class="yen">約 8 分 · 08:52 到</span></div><div class="d">阪急嵐山駅在<em>渡月橋南側</em>（嵐電與 JR 站在北側靠天龍寺），所以這條路線是「從橋的另一邊走進來」。</div></div>
+
+    <div class="time">09:00</div>
+    <div class="ev"><div class="h">渡月橋 · 桂川河畔 <span class="yen">免費</span></div><div class="d">步行約 7 分到橋。晨光斜射、人最少，這個時間的渡月橋和中午完全是兩個地方。</div></div>
+
+    <div class="time">09:40</div>
+    <div class="ev"><div class="h">天龍寺 <span class="yen">庭園 ¥500 ＋諸堂 ¥300 ＋雲龍圖 ¥500</span></div><div class="d">8:30–17:00、<strong>年中無休</strong>。曹源池庭園（夢窓疎石作、日本第一號史跡名勝）→ 諸堂 → <strong>法堂「雲龍圖」</strong>。<br><em>雲龍圖只有 9/19–12/6 每日開放</em>（其他時期只有週末假日）——10/28 剛好在期間內，這是這天的隱藏亮點。9:00–16:30。</div></div>
+
+    <div class="time">10:45</div>
+    <div class="ev"><div class="h">竹林の小径 ＋ 野宮神社 <span class="yen">兩處都免費</span></div><div class="d"><strong>從天龍寺北門直接通往竹林</strong>——可以完全避開正門那條人擠人的路。<br>竹林 24 小時無閘門，但 10:00–16:00 最擠（14:00 最糟）。10:45 算勉強可接受；<em>想拍到空的竹林，唯一辦法是 07:00 就從天下茶屋出發、08:00 進竹林。</em></div></div>
+
+    <div class="time">11:32</div>
+    <div class="ev move"><div class="lines"><span class="ln jr">嵯峨野観光鉄道 トロッコ</span></div><div class="h"><span class="tag book">1 個月前搶</span>トロッコ嵯峨 → トロッコ亀岡 <span class="yen">25 分 ¥880</span></div><div class="d">7.3km 沿保津峽，基本時刻 9:02–16:02 約每小時 1 班，旺季加開臨時列車。均一制 ¥880（15 人以上才有團體折扣，6 人不適用）。<br><strong>乘車日前 1 個月起在官網開賣</strong>，最多 8 人一次訂、可線上選座位、QR 上車。<em>リッチ号（5 號開放式車廂）與靠窗席最快沒。</em>當日券各站窗口約 08:35–09:10 開賣、先到先得。<br><em>兩個時間相關的重點：</em>① <strong>平常週三運休（行楽期除外），而 10/28 正好是週三</strong>——原本排週一就是為了閃這個，改日期後必須先向嵯峨野観光鉄道（075-861-7444）確認 10/28 有運行，沒有就換 A 或 B 案；② <strong>現役車輛 2026 年底退役、2027 春換新車</strong>，2026 年 10 月是最後一年，同時也是它會更擠的原因。</div></div>
+
+    <div class="time">12:05</div>
+    <div class="ev move"><div class="lines"><span class="ln wk">步行 8 分</span><span class="ln jr">JR 嵯峨野線</span></div><div class="h">トロッコ亀岡 → JR 馬堀 → 嵯峨嵐山 <span class="yen">約 10 分 ¥200</span></div><div class="d">小火車是單程搭，回程走 JR。<em>保津川下り（¥6,000／人、2 小時）我建議跳過</em>——保津峽的風景小火車已經用 ¥880 給你了，6 人 ¥36,000 還要吃掉整個下午。</div></div>
+
+    <div class="time">12:35</div>
+    <div class="ev"><div class="h"><span class="tag book">3 天前訂</span>午餐 · 篩月（天龍寺直營 精進料理）</div><div class="d">嵐山少數確實能訂 6 人的店。雪（一汁五菜）<strong>¥3,800</strong>／月（一汁六菜）¥6,500／花（一汁七菜）¥9,000。<em>用餐者仍需另付庭園拝觀料 ¥500——但上午已經付過了。</em><br>官網表單訂，<strong>確認信是人工回覆、可能要等幾天，所以要早訂</strong>。取消費：前 1 日 50%、當日 100%。<br><em>備案：</em>湯豆腐 嵯峨野（嵯峨天龍寺芒ノ馬場町 45，11:00 開、L.O. 16:30，100 席含 2 間個室，¥6,000–7,999／人，可透過一休／ホットペッパー 線上訂，但一休可能要求日本電話號碼）。</div></div>
+
+    <div class="time">14:10</div>
+    <div class="ev"><div class="h">甜點 · % ARABICA 京都 嵐山 或 老松 嵐山店</div><div class="d">% ARABICA 在渡月橋畔，拿鐵約 ¥500，永遠有隊但流動快。老松是和菓子老舖附茶房，6 人坐得下。街上還有 中村屋総本店 的可樂餅 ¥100，站著吃。</div></div>
+
+    <div class="time">14:40</div>
+    <div class="ev move"><div class="lines"><span class="ln hk">嵐電（京福）嵐山本線 → 北野線</span></div><div class="h">嵐電嵐山 → 帷子ノ辻 → 御室仁和寺 <span class="yen">約 20 分 ¥250</span></div></div>
+
+    <div class="time">15:10</div>
+    <div class="ev"><div class="h">仁和寺（世界遺產）<span class="yen">御殿 ¥800 · 伽藍 ¥500</span></div><div class="d">9:00–17:00（3–11 月）、無休。<strong>嵐電「御室仁和寺」站就在山門正對面，不用轉巴士</strong>——這是選它而不是金閣寺的主要理由（金閣寺要搭市巴士、人多）。御殿庭園、五重塔、金堂，平日極空。<br>另一個配對是梅小路的京都鉄道博物館（和小火車主題呼應），但<em>每週三休館</em>。</div></div>
+
+    <div class="time">16:40</div>
+    <div class="ev move"><div class="lines"><span class="ln hk">嵐電 → 四条大宮</span><span class="ln wk">步行 2 分</span><span class="ln hk">阪急</span><span class="ln sk">堺筋線</span></div><div class="h">御室仁和寺 → 四条大宮 → 阪急大宮 → 桂 → 淡路 → 天下茶屋 <span class="yen">¥250 ＋ ¥680 · 約 18:35 到</span></div><div class="d">想先去河原町逛街吃晚餐，就搭到京都河原町，約 19:30 回天下茶屋。</div></div>
+  </div>
+
+  <div class="note">
+    <b>人力車值得考慮：</b>えびす屋 嵐山總本店「竹林の旅」30 分，1 名 ¥9,000／2 名 ¥10,000 → 6 人需 3 台約 ¥30,000（每人 ¥5,000）。車夫會走觀光客不知道的小徑並全程解說，<em>竹林人擠的時候價值最高</em>。現場可搭，秋天建議預約。
+  </div>
+  <div class="note warn">
+    <b>票券算過了：</b>「阪急阪神1dayパス」¥1,600 不划算（你的阪急實際花費只有 ¥880），直接刷 ICOCA。唯一可能划算的是「京都・嵐山1dayパス」（阪急＋嵐電＋京都バス）——但我只能確認到 2026 春季版（3/20–5/24 已過期），秋季版是否推出請在 10 月前查阪急官網。
+  </div>
+</article>
+
+<article class="day" id="plan-d">
+  <div class="day-head">
+    <div class="day-no"><span>方案 D</span><span class="wd">10 / 28 WED</span><span>最深山 · 最硬</span></div>
+    <h3>貴船神社與三千院：兩個谷地，一天走完</h3>
+    <p class="day-sum">先說結論：<strong>做得到，但代價是純移動約 5 小時 30 分、景點只有 4 小時 30 分。</strong>兩地沒有直達巴士（原本的京都バス 55 系統已停駛），中間隔著山、車行必須南下繞到国際会館再北上。下面的時程用的是最快的連結，並把那個 7 分鐘的高風險轉乘改成安全版。如果覺得太趕，後面有「大原一日」的悠閒版。</p>
+    <div class="day-stats"><span>車資 ¥3,650／人</span><span>門票 ¥1,600</span><span>約 ¥5,450／人</span><span>轉乘 5 次</span></div>
+  </div>
+
+  <div class="tt">
+    <div class="time">06:50</div>
+    <div class="ev move"><div class="lines"><span class="ln sk">堺筋線</span></div><div class="h">天下茶屋 → 北浜 <span class="yen">11 分 ¥240</span></div><div class="d">6 人請提早 10 分集合——這是整趟裡最早出門的一天。</div></div>
+
+    <div class="time">07:14</div>
+    <div class="ev move"><div class="lines"><span class="ln kh">京阪本線 特急</span></div><div class="h">北浜 → 出町柳 <span class="yen">54 分 ¥550</span></div><div class="d">京阪特急<em>確實停出町柳</em>（鴨東線終點），而且早上 6 點就有特急班次。逆向通勤一定有座位。</div></div>
+
+    <div class="time">08:08</div>
+    <div class="ev"><div class="h">出町柳（同站轉叡電）</div><div class="d">整天唯一能好好買飲料、上廁所的地方，把握。</div></div>
+
+    <div class="time">08:24</div>
+    <div class="ev move"><div class="lines"><span class="ln kh">叡山電鉄 鞍馬線</span></div><div class="h">出町柳 → 貴船口 <span class="yen">28 分 ¥470</span></div><div class="d"><strong>確認方向幕是「鞍馬」</strong>——部分班次只開到「二軒茶屋」。早上往鞍馬約每 15–20 分一班。<em>叡電官網與駅探的早班時刻不一致，當天請現場確認。</em></div></div>
+
+    <div class="time">09:07</div>
+    <div class="ev move"><div class="lines"><span class="ln bs">京都バス 33 系統</span></div><div class="h">叡電貴船口駅前 → 貴船 <span class="yen">4–5 分 ¥200</span></div><div class="d"><strong>33 系統平日首班就是 09:05／09:07</strong>，8 點多到貴船口只能等。<em>不想等就直接走上去</em>：沿貴船川的柏油路約 2km、上坡、25–30 分鐘，坡度溫和、風景好——以你們的體力這其實是更好的選擇。<br>10:00–13:00 這段是每 7–8 分一班的觀光接駁密度，小巴但班次極密，6 人不成問題。</div></div>
+
+    <div class="time">09:20</div>
+    <div class="ev"><div class="h">貴船神社 · 三社詣 <span class="yen">免費 · 6:00–20:00</span></div><div class="d">境內沿貴船川呈<em>線狀</em>延伸約 1km。<strong>本宮 →（700m）奥宮 →（回程順路）結社</strong>是傳統順序（結社收「結緣」）；體力優先就 本宮 → 結社（300m／5 分）→ 奥宮。<br>本宮前那道<strong>紅色春日灯篭夾道石階</strong>就是所有明信片的畫面，上完即到本宮，不長。<em>平日早上 9 點多人最少，最好拍。</em><br>本宮的「御神水」上浮字的<strong>水占みくじ ¥200</strong>——6 個人玩這個很值。授与所（御守・御朱印・水占）9:00–17:00。<br><span class="tag cash">注意</span>石階多，輪椅不可。</div></div>
+
+    <div class="time">11:20</div>
+    <div class="ev"><div class="h">貴船倶楽部 · 輕食／咖啡</div><div class="d">11:00–16:30（L.O. 16:00），不定休，建議先電 075-741-3039。蛋糕套餐 ¥1,280 起、抹茶芭菲 ¥1,980，10–5 月有餐食 menu。<br><strong>10 月已經沒有川床了</strong>（2026 川床是 5/1–9/30），所以貴船的餐廳優勢消失。ひろ文 的囲炉裏懐石很好但 6 人要 ¥65,000＋、而且最終入店 13:30 會鎖死行程節奏——<em>正餐留到大原比較划算。</em></div></div>
+
+    <div class="time">12:20</div>
+    <div class="ev move"><div class="lines"><span class="ln bs">京都バス 33 系統</span><span class="ln wk">步行 4–5 分</span></div><div class="h">貴船 → 叡電貴船口駅前 → 走到「貴船口」站 <span class="yen">¥200</span></div><div class="d"><strong>這是全天最容易出錯的一步：</strong>33 系統停的是「叡電貴船口駅前」（車站前廣場），52 系統停的是「貴船口」（鞍馬街道路邊），<em>兩站相距步行 4–5 分</em>。請預留時間走過去。</div></div>
+
+    <div class="time">12:47</div>
+    <div class="ev move"><div class="lines"><span class="ln bs">京都バス 52 系統</span></div><div class="h">貴船口 → 国際会館駅前 <span class="yen">23 分 ¥310</span></div><div class="d">沿鞍馬街道與叡電平行的公路巴士，約每 20–28 分一班。<br><em>刻意搭這班而不是 13:09：</em>13:09 那班會接到只剩 7 分鐘轉乘的 13:39 巴士，若鞍馬街道塞車就得等到 14:11、大原順延到 14:33，午餐要放棄、宝泉院也會很趕。搭 12:47 到国際会館 13:10，等 29 分鐘但<strong>零風險</strong>，同樣 14:02 到大原。</div></div>
+
+    <div class="time">13:39</div>
+    <div class="ev move"><div class="lines"><span class="ln bs">京都バス 19／特17 系統</span></div><div class="h">国際会館駅前 → 大原 <span class="yen">22–23 分 ¥400 · 14:02 到</span></div><div class="d">中午時段約每 25–35 分一班（19 系統與 特17 系統合計）。<br><em>這一段就是這個方案的關鍵發現：</em>貴船口 →〔52〕→ 国際会館 →〔19／特17〕→ 大原 只要 44 分 ¥710，比繞回出町柳（62–74 分、¥960）<strong>快 20–30 分、便宜 ¥250</strong>。</div></div>
+
+    <div class="time">14:05</div>
+    <div class="ev"><div class="h"><span class="tag book">必訂</span>午餐 · 大原リバーサイドカフェ 来隣（きりん）</div><div class="d">午餐 11:30–15:00，<strong>週三・週四休 → 10/28 是週三，這天不開</strong>。（原本排 10/26 週一才吃得到。）大原野菜おにぎり＋野菜自助，人均約 ¥2,000 級，電話 075-744-2239。<br><span class="tag cash">最緊的一段</span>到大原已 14:05，離 15:00 打烊只剩 55 分——<em>訂位時務必說明抵達時間並請店家保留</em>。若店家不接受，就改成「貴船 12:00 吃正餐 ＋ 大原只喝茶（宝泉院的抹茶已含在 ¥900 裡）」。<br><strong>10/28 改吃這裡：</strong>芹生（三千院門前，位置最好，075-744-2301，定休與午餐時間未能確認，務必先電話訂 6 人）；或<strong>里の駅大原</strong>（週一休館 → 10/28 週三有開，改日期後多出來的選項）。若都訂不到，就改成「貴船 12:00 吃正餐 ＋ 大原只喝茶」。</div></div>
+
+    <div class="time">14:50</div>
+    <div class="ev"><div class="h">參道上行（漬物店試吃）</div><div class="d">大原バス停到三千院是 10–15 分的上坡參道，兩側都是漬物店。<em>志ば久</em>的しば漬是名店，可以試吃買伴手禮。</div></div>
+
+    <div class="time">15:05</div>
+    <div class="ev"><div class="h">三千院 <span class="yen">¥700 · 9:00–17:00（受付 16:30）· 年中無休</span></div><div class="d">往生極楽院（阿彌陀三尊）、聚碧園、<strong>有清園的杉苔庭園</strong>、金色不動堂、観音堂。60–75 分一圈。<br><em>可能的意外加分：</em>「もみじ祭」期間會<strong>特別開扉秘仏「金色不動明王」</strong>並設茶席（¥800 含菓子）。一個來源記 2026 年會期 <strong>10/24–12/6</strong>，另一個來源記 <strong>10/28 起</strong>——<em>改到 10/28 之後，兩種說法下都看得到</em>，是這次日期輪調的意外紅利。仍建議打 075-744-2531 再確認一次。</div></div>
+
+    <div class="time">16:20</div>
+    <div class="ev"><div class="h">宝泉院 <span class="yen">¥900（含抹茶＋菓子）· 受付 16:30 截止</span></div><div class="d">就在三千院隔壁 3 分鐘。<strong>額縁庭園「盤桓園」</strong>——把柱與樑當畫框看庭園，加上 700 年的五葉松與水琴窟「理智不二」。大原六寺裡最值得的一間。<br><span class="tag cash">硬時限</span>受付 16:30 截止，<strong>三千院一定要在 16:15 前出來</strong>。</div></div>
+
+    <div class="time">17:10</div>
+    <div class="ev"><div class="h">步行下山回大原バス停（15 分）</div><div class="d">請 17:10 就到站牌等，不要拖。</div></div>
+
+    <div class="time">17:27</div>
+    <div class="ev move"><div class="lines"><span class="ln bs">京都バス 17 系統</span></div><div class="h">大原 → 出町柳 <span class="yen">34 分 ¥490 · 18:01 到</span></div><div class="d"><strong>這是平日往出町柳的最後一班直達巴士，絕對不能錯過。</strong>錯過的話唯一逃生路線是 大原 →〔19 系統，約每小時 :07〕→ 国際会館 →〔地下鐵烏丸線，末班 23:39〕。</div></div>
+
+    <div class="time">18:10</div>
+    <div class="ev move"><div class="lines"><span class="ln kh">京阪 特急</span><span class="ln sk">堺筋線</span></div><div class="h">出町柳 → 北浜 → 天下茶屋 <span class="yen">¥790 · 約 19:20 到</span></div><div class="d">回到天下茶屋還來得及吃晚餐（まる米 到 21:00、たゆたゆ 到凌晨）。</div></div>
+  </div>
+
+  <div class="note warn">
+    <b>安全底線：</b>出町柳往大阪的<strong>最後一班特急 21:51</strong>（最後一班車是 23:10 快急）；北浜 → 天下茶屋 的堺筋線末班 00:13。<em>只要在 21:51 前站上出町柳月台就一定回得去。</em>反推：大原最晚必須在 19:00 前上車。<br>另外兩個時限：<strong>33 系統 貴船 → 貴船口 末班 17:35</strong>（之後只能走 30 分下山）；叡電貴船口 → 出町柳 末班 23:06（這個完全不用擔心）。
+  </div>
+
+  <div class="note">
+    <b>悠閒版：大原一整天（如果覺得上面太趕，我更推這個）</b><br>兩地一日遊的實質內容是「貴船 2 小時 ＋ 大原 2.5 小時 ＋ 移動 5.5 小時」——移動比景點還久，而且 10 月底兩地都沒有紅葉這個最大賣點。改成只去大原，<strong>全天只搭 1 班巴士、轉乘 1 次、零轉乘風險</strong>，卻能把六間寺全部走完：<br>
+    07:20 天下茶屋 → 07:44 京阪特急 → 08:38 出町柳 → <strong>09:16 京都バス 17 系統一班到底</strong> → 09:50 大原 → 10:00–11:15 <strong>三千院</strong> ¥700 → 11:20–12:00 <strong>宝泉院</strong> ¥900 → 12:00–12:30 <strong>実光院</strong> ¥600（不断桜 10 月中旬起開花，此時正好）＋<strong>勝林院</strong> ¥300 → 12:40–13:10 <strong>来迎院</strong> ¥400（天台声明發祥地，人極少）→ 13:20–14:30 午餐 来隣 或 芹生 → 14:40 步行穿過大原里 30 分 → 15:10–15:50 <strong>寂光院</strong> ¥600（平家物語 建礼門院徳子隱棲之地，遊客明顯較少）→ 16:10 漬物店買伴手禮 → 16:27 或 17:27 的 17 系統 → 約 19:20 天下茶屋。<br>
+    走路約 4.5km，車資 <strong>¥2,560／人</strong>＋拜觀 ¥3,200（六寺全包）＝ 約 ¥5,760／人。完整的「大原＝祈禱之谷」故事線，比走馬看花兩地紮實得多。<br>
+    <em>另一個常見的配對——貴船＋鞍馬寺——我不推薦給 6 人：</em>奥宮 → 木の根道 → 鞍馬寺 是實質登山，約 1–1.5 小時、大量石階與樹根路、落差大、雨後泥濘，而且這一週已經有箕面大滝與清水寺的步行量了。
+  </div>
+
+  <div class="note warn">
+    <b>票券全部不划算：</b>叡電「えぇきっぷ」¥1,200（本行程叡電只搭單程 ¥470，回程走大原）、「地下鉄＆えいでん 鞍馬・貴船日帰りきっぷ」¥2,100（<em>明文不含巴士</em>，而這天最貴的就是巴士；且只涵蓋京阪三条以北）、「京都地下鉄・バス1日券」¥1,100（<em>官方明文排除貴船・鞍馬</em>，也不含叡電）。至於「鞍馬・貴船散策チケット」——2026 年查不到這個商品，推測已停售或改名，而且我們不去鞍馬寺，它的核心價值（鞍馬寺愛山費）等於浪費。<br><strong>結論：直接刷 ICOCA，並確保每人至少有 ¥2,000 餘額</strong>（京都バス與叡電都可刷；33 系統是小巴，6 人請分散上車、後門刷卡）。
+  </div>
+</article>
+
+<!-- ============ FOODS ============ -->
+<section id="foods">
+  <div class="sec-head"><h2>美食清單</h2><span class="hint">4 家指定 ＋ 加分選項</span></div>
+
+  <div class="foods">
+    <div class="food"><span class="n"><span class="tag must">必吃 1</span>国産牛焼肉食べ放題 あぶりや 千日前店</span><span class="when">10/25 · 19:00 · 已排</span><span class="w">選千日前而不是あべのルシアス——南海從天下茶屋直達，有 6 人個室。国産牛食べ放題 ¥5,368。訂位時務必問限時幾分鐘。</span></div>
+    <div class="food"><span class="n"><span class="tag must">必吃 2</span>カヌレ堂 CANELÉ du JAPON 長堀橋店</span><span class="when">10/27 · 11:40 · 已排</span><span class="w">堺筋線直達 4 站不用換車。全店<strong>週三休</strong>＋賣完關門。禮盒 8 個 ¥1,300。（桜川本店 10:00–19:00 也可，離南海なんば近。）</span></div>
+    <div class="food"><span class="n"><span class="tag must">必吃 3</span>すき焼き 藤もと</span><span class="when">10/27 · 18:30 · 已排</span><span class="w">四ツ橋 1 分。每人一鍋、現場切肉、湯底選醬油或京都白味噌。TableCheck 可訂（最多 10 人）。無包廂只能併桌。</span></div>
+    <div class="food"><span class="n"><span class="tag must">必吃 4</span>すし酒場 さしす なんばウォーク店</span><span class="when">10/27 · 14:00 · 已排</span><span class="w"><strong>全分店不接受預約</strong>。這是四家分店裡等最短的（實測平日 13:00 後約 20 分；梅田本店常等 2 小時）。うにく ¥649 必點。</span></div>
+  </div>
+
+  <div class="sec-head" style="margin-top:26px"><h3 style="font-size:17px;font-weight:700">加分推薦</h3><span class="hint">已按天嵌進行程</span></div>
+  <div class="foods">
+    <div class="food"><span class="n">元祖串かつ だるま 動物園前店</span><span class="when">10/29 晚</span><span class="w">全大阪唯一能訂位的だるま，有座敷、年中無休、動物園前＝天下茶屋 1 站。6 人吃串カツ最穩的解。限時 90 分。</span></div>
+    <div class="food"><span class="n">八重勝（ジャンジャン横丁）</span><span class="when">✕ 這趟吃不到</span><span class="w">更硬派的串カツ名店，但<strong>木曜定休</strong>——新世界那天已改到 10/29（四）。硬要吃就自己另外找一個晚上去新世界（10:30–20:30、49 席全吧台、不可訂位、<span class="tag cash">現金</span>）。</span></div>
+    <div class="food"><span class="n">千房 道頓堀ビル店</span><span class="when">10/27 備案</span><span class="w">お好み焼き<strong>可線上訂位</strong>、6 層樓、英文菜單、全面禁菸——6 人吃鐵板燒最省事。¥2,000–3,500。（美津の 更有名但不可預約、38 席要排隊。）</span></div>
+    <div class="food"><span class="n">たこ焼道楽 わなか 千日前本店</span><span class="when">10/27 下午</span><span class="w">米其林 Bib Gourmand，南海なんば 4 分，<em>2 樓 80 席可以坐著吃</em>、翻桌快。營業時間官方註明隨時調整，去前查一下。</span></div>
+    <div class="food"><span class="n">大興寿司 難波店</span><span class="when">彈性</span><span class="w">南海なんば 徒步 1 分，老派吧台壽司、<strong>可預約</strong>、¥2,000–2,999。<span class="tag cash">現金</span>。回天下茶屋超順路。</span></div>
+    <div class="food"><span class="n">みな麺（なんばウォーク一番街）</span><span class="when">彈性午餐</span><span class="w">食べログ 大阪第一名拉麵「人類みな麺類」的新品牌旗艦，自家製麵醬油拉麵，不用跑西中島。僅 14 席，6 人要分批。</span></div>
+    <div class="food"><span class="n">千成屋珈琲（新世界）</span><span class="when">週末早餐</span><span class="w">大阪「ミックスジュース」發源店、昭和復古。<em>週六日 9:00 開</em>（平日 11:30），動物園前＝天下茶屋 1 站——是這趟唯一能吃到的真正早餐咖啡店。</span></div>
+    <div class="food"><span class="n">おでん まる米（天下茶屋）</span><span class="when">10/28 晚</span><span class="w">駅前ビル、食べログ 3.68、12:00–21:00（L.O. 20:30）、僅 14 席需電話訂。從奈良回來 19:00 剛好。</span></div>
+    <div class="food"><span class="n">立ち食い寿司 越中屋（岸里）</span><span class="when">✕ 10/28 週三休</span><span class="w">天下茶屋徒步 1 分、食べログ 3.64、17:00–22:00、僅 8 席立食、<strong>可訂位</strong>、<span class="tag cash">現金</span>、¥8,000–9,999。品質極高但 6 人幾乎包場，必須先訂。</span></div>
+    <div class="food"><span class="n">ねぎ焼 お好み焼 福太郎 本店</span><span class="when">宵夜</span><span class="w">なんば 徒步 5 分、17:00–24:00、年中無休、¥2,000–3,000。不接受網路訂位、只能電話＋現場排長隊，但ねぎ焼是大阪限定的吃法。</span></div>
+  </div>
+</section>
+
+<!-- ============ NOTES ============ -->
+<section id="notes">
+  <div class="sec-head"><h2>交通備忘與待確認</h2></div>
+
+  <h3 style="font-family:var(--f-display);font-size:16px;font-weight:700;margin-top:20px">你會反覆用到的路線</h3>
+  <div class="legend">
+    <span class="ln sk">堺筋線（天下茶屋 K20 · 直通阪急）</span>
+    <span class="ln md">御堂筋線（直通北大阪急行→箕面萱野）</span>
+    <span class="ln nk">南海本線（天下茶屋→なんば 5 分）</span>
+    <span class="ln kt">近鉄奈良線</span>
+    <span class="ln hk">阪急京都線／箕面線</span>
+    <span class="ln hs">阪神なんば線</span>
+    <span class="ln keihan kh">京阪本線（北浜接）</span>
+    <span class="ln jr">JR 神戸線／大和路線</span>
+    <span class="ln pt">ポートライナー</span>
+    <span class="ln ch">中央線</span>
+    <span class="ln yt">四つ橋線</span>
+    <span class="ln tn">谷町線</span>
+    <span class="ln sn">千日前線</span>
+  </div>
+
+  <div class="note" style="margin-top:18px">
+    <b>天下茶屋的兩個方向：</b>南邊的難波、心齋橋、新世界走<em>南海（1–2 站）或堺筋線</em>；北邊的箕面、梅田、天王寺要先到<em>動物園前轉御堂筋線</em>；京都走<em>堺筋線直通阪急</em>（在淡路換特急／準特急）；宇治伏見走<em>堺筋線到北浜轉京阪</em>。整趟只有勝尾寺的巴士不能刷卡。
+  </div>
+
+  <h3 style="font-family:var(--f-display);font-size:16px;font-weight:700;margin-top:26px">出發前要自己再確認一次的事</h3>
+  <div class="note warn" style="margin-top:12px">
+    <b>時刻表：</b>本行程的班次基於 2025/10 改訂版（Osaka Metro、阪急、京阪、ポートライナー），2026 年 10 月可能改點——出發前用 Yahoo!路線情報或 Google Maps 重查一次，京都那天的淡路 4 分鐘換車尤其要確認。
+  </div>
+  <ul style="margin-top:14px;font-size:13.5px;color:var(--ink-2);display:grid;gap:5px">
+    <li><b>阪急バス 30 的週日時刻</b>——勝尾寺官網寫 9–14 時每 10 分一班，駅探的定時班表寫每 30 分，兩邊衝突；只有「上山末班 15:00」一致。<em>改成計程車下山之後，回程班次已經不影響行程</em>，只要確保 09:00 那班上得去。</li>
+    <li><b>勝尾寺 → 箕面大滝 的計程車</b>——池田タクシー 072-761-8464，出發前一週打電話指定 10/25 11:40 在勝尾寺山門接人，優先問<b>ジャンボタクシー（9 人座）</b>有沒有空。同時確認到大滝的實際車資（官方只公布到阪急箕面駅 ¥3,400）、以及能不能在<b>大滝上的乘降場</b>下車。</li>
+    <li><b>箕面滝道ワンウェイ観光周遊バス</b>（備援）——箕面市近年在跑的實證運行，阪急箕面駅 → 大滝單向接駁。<em>2026 年度是否還有、跑哪些日子未確認</em>，若有就是計程車之外的第二條路。箕面市 箕面営業室 072-724-6905。</li>
+    <li><b>あぶりや 的食べ放題限時與最後加點時間</b>——所有網站都沒寫，訂位時問。千日前店價格 ¥5,368 與官網 ¥5,038 有分店差異，以現場報價為準。</li>
+    <li><b>すき焼き 藤もと 的定休日</b>——四個來源都沒列，推測無定休但未證實。</li>
+    <li><b>清修庵 清水店 能不能收 6 人 11:55</b>（京都日午餐）——HotPepper 寫最大 80 人、年中無休，但沒寫團體規則；原訂的 有喜屋 因為改到週一而不能用，這家是替代方案，務必先訂。</li>
+    <li><b>長榮在神戶機場的櫃檯開放時間</b>——官方未公告，推估 16:00–16:30 開；託運截止 18:00 是確定的。</li>
+    <li><b>箕面川床 梅屋敷 的 2026 秋季檔期</b>——看到「秋季 9/19–10/25」但無法確認年度，要吃務必電話確認。</li>
+    <li><b>嵯峨野トロッコ 10/28（週三）到底有沒有運行</b>（若選嵐山）——這是彈性日改到週三之後<em>最關鍵的一項</em>。官方規則是「水曜定休，水曜為假日則運轉」＋春假／暑假／黃金週／紅葉期照常，10 月下旬算不算紅葉期沒有明講。電 075-861-7444 或查官網 2026 年運轉計畫カレンダー。<b>KKday 天橋立 10 月下旬有無空位與集合時間</b>（若選跟團）。</li>
+    <li><b>三千院「もみじ祭」與秘仏金色不動明王開扉的 2026 起始日</b>（若選方案 D）——一個來源記 10/24 起、另一個記 10/28 起；<em>日期改到 10/28 之後兩種說法都涵蓋得到</em>，但仍建議打 075-744-2531 確認。同一天要另外確認 <b>芹生</b> 的定休與午餐時間（来隣週三休，這天要靠它）。</li>
+    <li><b>京都バス 19 系統 大原 → 国際会館 的平日晚間時刻</b>（若選方案 D）——只確認到 16:07、17:07 這兩班；抵達大原時先拍下站牌時刻表，或用「京都バスナビ」現查。這是錯過 17:27 之後唯一的逃生路線。</li>
+    <li><b>実光院的拝觀時間與料金</b>（若選大原一日版）——官網 access 頁寫 9:00–16:00 ¥600、首頁公告寫 9:30–15:30，電話 075-744-2537。<b>勝林院</b>的時間與定休完全查不到。</li>
+    <li><b>宇治 福寿園宇治茶亭 是否收 6 人預約</b>（若選方案 B）——電話 050-3152-2932。宇治的抹茶名店全部不收訂位，這是唯一有座位保障的可能。</li>
+    <li><b>八坂の塔 的受付時間</b>有 9:00–16:00 與 10:00–15:00 兩說且不定休——只外拍就不受影響。</li>
+    <li>一日券全部算過了：奈良（純步行 ¥1,840 &lt; 斑鳩1day ¥2,200）、京阪（實花 ¥1,330 &lt; ¥1,650）、阪急（實花 ¥880 &lt; ¥1,600）都<b>不划算，直接刷 IC 卡</b>。而且 2026 年度多已改成需要手機＋信用卡註冊的數位票券，6 人設定很麻煩。</li>
+  </ul>
+</section>
+
+<footer>
+  行程製作日 2026/9/10 · <strong>2026/9/11 修訂</strong>：10/25 勝尾寺改計程車接駁箕面大滝、京都日改為先上清水寺再下山逛錦市場、日期輪調（京都 10/26／彈性日 10/28／大阪城 10/29）· 依 6 人、天下茶屋住宿、BR176／BR175 航班時間排定 · 價格與時刻為查證當日資料，出發前請再確認一次
+</footer>
+
+</div>
